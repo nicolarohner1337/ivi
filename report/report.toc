@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}LE1: Performance}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}WebGL}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Datashader}{3}{subsection.1.2}%

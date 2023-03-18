@@ -1,0 +1,170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{wong_abstract_2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=dbe1e80d307b4d684915f9312dec0c26}{%
+           family={Cottam},
+           familyi={C\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=76782c3af2abd54f0f96f4565cbc818a}{%
+           family={Lumsdaine},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2668db8a9dd4740f2bf8a6e2335318a1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=cab20bee911a89ac86582b0eaa66c622}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Pak\bibnamedelima Chung},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=93f3c061dc5b6a69073e30c6751cb1bc}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f537da8efe879a968821ada0c096d05c}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Ming\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0a6b258e5ad7b4f351b3cd0ce837c219}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chaomei},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, California, {USA}}%
+      }
+      \strng{namehash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{fullhash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{bibnamehash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{authorbibnamehash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{authornamehash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{authorfullhash}{c5a7be9aff9c878a8ca5a6648f3877be}
+      \strng{editorbibnamehash}{a5167ce2040fbd1bc5cfe3f8d1d95fc8}
+      \strng{editornamehash}{a5167ce2040fbd1bc5cfe3f8d1d95fc8}
+      \strng{editorfullhash}{61b7dfd8132ccc4570da82b64baef4f2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{23}
+      \field{eventtitle}{{IS}\&T/{SPIE} Electronic Imaging}
+      \field{month}{12}
+      \field{shorttitle}{Abstract rendering}
+      \field{title}{Abstract rendering: out-of-core rendering for information visualization}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{90170K}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1117/12.2041200
+      \endverb
+      \verb{urlraw}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2041200
+      \endverb
+      \verb{url}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2041200
+      \endverb
+    \endentry
+    \entry{kayce_basques_analyze_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c3bd71c370cb3baa08e415e5d6363b2f}{%
+           family={{Kayce Basques}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \strng{fullhash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \strng{bibnamehash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \strng{authorbibnamehash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \strng{authornamehash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \strng{authorfullhash}{c3bd71c370cb3baa08e415e5d6363b2f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn how to evaluate runtime performance in Chrome {DevTools}.}
+      \field{langid}{english}
+      \field{title}{Analyze runtime performance}
+      \field{titleaddon}{Chrome Developers}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/2VNNVTUP/performance.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.chrome.com/docs/devtools/performance/
+      \endverb
+      \verb{url}
+      \verb https://developer.chrome.com/docs/devtools/performance/
+      \endverb
+    \endentry
+    \entry{plotly_webgl_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a5e13387c005fe8d4e1c67f40a84c17b}{%
+           family={{Plotly}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \strng{fullhash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \strng{bibnamehash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \strng{authorbibnamehash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \strng{authornamehash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \strng{authorfullhash}{a5e13387c005fe8d4e1c67f40a84c17b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Webgl vs svg in Python}
+      \field{titleaddon}{{WebGL} vs {SVG} in Python}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Webgl vs svg in Python:/Users/nicolarohner/Zotero/storage/SVPKXGG3/webgl-vs-svg.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://plotly.com/python/webgl-vs-svg/
+      \endverb
+      \verb{url}
+      \verb https://plotly.com/python/webgl-vs-svg/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
