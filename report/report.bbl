@@ -98,6 +98,39 @@
       \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2041200
       \endverb
     \endentry
+    \entry{deckgl_home_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0465a9e7e6d9641ebff3557462ac90d6}{%
+           family={{deck.gl}},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \strng{fullhash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \strng{bibnamehash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \strng{authorbibnamehash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \strng{authornamehash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \strng{authorfullhash}{0465a9e7e6d9641ebff3557462ac90d6}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{deck.gl}
+      \field{langid}{english}
+      \field{title}{Home {|} deck.gl}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/MPIAAAXW/deck.gl.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://deck.gl/
+      \endverb
+      \verb{url}
+      \verb https://deck.gl/
+      \endverb
+    \endentry
     \entry{kayce_basques_analyze_nodate}{online}{}
       \name{author}{1}{}{%
         {{hash=c3bd71c370cb3baa08e415e5d6363b2f}{%
@@ -130,6 +163,53 @@
       \endverb
       \verb{url}
       \verb https://developer.chrome.com/docs/devtools/performance/
+      \endverb
+    \endentry
+    \entry{noauthor_measure_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{RAIL} model enables designers and developers to reliably target the performance optimization work that has the highest impact on user experience. Learn what goals and guidelines the {RAIL} model sets out and which tools you can use to achieve them.}
+      \field{langid}{english}
+      \field{title}{Measure performance with the {RAIL} model}
+      \field{titleaddon}{web.dev}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/2XWXA44G/rail.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://web.dev/rail/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/rail/
+      \endverb
+    \endentry
+    \entry{noauthor_memory_2023}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Low-level languages like C, have manual memory management primitives such as malloc() and free(). In contrast, {JavaScript} automatically allocates memory when objects are created and frees it when they are not used anymore (garbage collection). This automaticity is a potential source of confusion: it can give developers the false impression that they don't need to worry about memory management.}
+      \field{day}{23}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{Memory management - {JavaScript} {|} {MDN}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/7K5JX3DV/Memory_Management.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
       \endverb
     \endentry
     \entry{plotly_webgl_nodate}{online}{}

@@ -21,7 +21,8 @@
 \end{center}
 
 \begin{abstract}
-
+In diesem Bericht werden die Lernergebnisse des Moduls IVI zusammengefasst.\\
+Für alle ausser LE1 wurden folgende Daten verwendet: \newline
 GroupLens Research hat Bewertungsdatensätze von der MovieLens-Website \url{https://movielens.org} gesammelt und zur Verfügung gestellt.
 Die Datensätze wurden über verschiedene Zeiträume hinweg gesammelt, abhängig von der Größe des Satzes. Das ZIP findet man unter folgendem Link: \url{https://files.grouplens.org/datasets/movielens/ml-latest.zip}
 Die Daten umfassen 27.000.000 Bewertungen und 1.100.000 Tag-Anwendungen für 58.000 Filme von 280.000 Nutzern. Beinhaltet Tag-Genom-Daten mit 14 Millionen Relevanz-Scores für 1.100 Tags.\\
@@ -60,7 +61,7 @@ Einmal wurde die Visualisierung mit dem Modus SVG und einmal mit WebGL gerendert
 \end{figure}
 
 \noindent
-Die Chrome Entwickler Tools verfügen über ein Performance Profiler Tool, welches die Performance einer Webseite analysieren kann. Es unterteilt die Laufzeitleistung in das RAIL-Modell: Response, Animation, Idle und Load.
+Die Chrome Entwickler Tools verfügen über ein Performance Profiler Tool, welches die Performance einer Webseite analysieren kann. Es unterteilt die Laufzeitleistung in das RAIL-Modell\cite{noauthor_measure_nodate}: Response, Animation, Idle und Load.
 Im Kontext zur Visualisierung betrachte man die Scripting, Rendering und Painting Kategorien.\cite{kayce_basques_analyze_nodate}
 
 %enter table here
@@ -92,7 +93,7 @@ Auch die Tradeoffs zwischen Performance und Qualität sind deutlich zu erkennen.
 \end{figure}
 \newpage
 
-\subsection{Datashader}
+\subsection{Layering}
 Datashader ist ein Grafik-Pipeline-System zur schnellen und flexiblen Erstellung aussagekräftiger Darstellungen grosser Datensätze. Datashader unterteilt die Erstellung von Bildern in eine Reihe expliziter Schritte, die es ermöglichen, Berechnungen an Zwischendarstellungen vorzunehmen.\cite{wong_abstract_2013}
 \newline
 Wir visualisieren hier die räumliche Verteilung der Taxifahrten in New York City. 
@@ -121,7 +122,7 @@ Die Daten werden von Plotly zu Verfügung gestellt und sind unter folgendem Link
 \includegraphics[height=0.18\textwidth]{img/newyork_datashader.png}
 \caption{\label{fig: LE1 Plotly vs Datashader} Taxifahrten in Newyork (Plotly links, Datashader Layer rechts)}
 \end{figure}
-
+\noindent
 Zu beobachten ist das die unprozessierten Daten mit Plotly zwar schöner dargestellt werden. Aber viel länger brauchen um angezeigt zu werden. Die Datashader Visualisierung ist deutlich schneller und die Daten werden deutlich besser dargestellt.
 Diese Beobachtungen wiederspiegeln sich auch in den Performance Daten. Zwar wird nur die Scripting Zeit signifikant verkürzt.
 
@@ -141,9 +142,9 @@ Diese Beobachtungen wiederspiegeln sich auch in den Performance Daten. Zwar wird
     \hline
     \end{tabular}
     \caption{\label{tab: LE1 Performance}Performance Unterschiede}
-    \end{table}
-
-Spannender bei diesem Fall sind die Unteschiede des genutzen Speichers. Wenn wir den JavaScript Heap betrachten sehen wir einen signifikanten Unterschied.
+\end{table}
+\noindent
+Spannender bei diesem Fall sind die Unteschiede des genutzen Speichers. Wenn wir den JavaScript Heap betrachten sehen wir einen signifikanten Unterschied\cite{noauthor_memory_2023}.
 Plotly braucht fast 130MB um die Daten zu visualisieren, der Datashader Layer braucht nur 23MB.
 
 %enter image here
@@ -151,10 +152,11 @@ Plotly braucht fast 130MB um die Daten zu visualisieren, der Datashader Layer br
 \centering
 \includegraphics[width=0.2\textwidth]{img/js_heap_plotly.png}
 \includegraphics[height=0.158\textwidth]{img/js_heap_datashader.png}
-\caption{\label{fig: LE1 Datashader Memory} Memory Plotly vs. Datashader Layer}
+\caption{\label{fig: LE1 Datashader Memory} Memory Heap Plotly vs. Datashader Layer}
 \end{figure}
-
-
+\noindent
+Einen ähnlichen Ansatz verfolgen auch Framworks wie Deck.gl. Diese Frameworks sind jedoch auf WebGL basiert und können somit nur auf Browsern mit WebGL Unterstützung verwendet werden.
+Sie prozessieren für verschiedene Ansichte voragregierte Layers und können so sehr schnell und performant visualisieren.\cite{deckgl_home_nodate}
 
 \newpage
 \printbibliography

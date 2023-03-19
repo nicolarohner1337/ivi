@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  18 MAR 2023 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  19 MAR 2023 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,14 +545,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 25.
+(Font)              <9> on input line 26.
 
-Overfull \hbox (8.51553pt too wide) in paragraph at lines 25--31
-[]\OT1/cmr/m/n/9 GroupLens Re-search hat Be-w-er-tungs-datens^^?atze von der MovieLens-Website []$\OT1/cmtt/m/n/9 https : / / movielens .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
 
  []
 
@@ -563,73 +558,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--31
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
+Underfull \hbox (badness 10000) in paragraph at lines 43--53
 
  []
 
 <img/random_dots.png, id=39, 1322.9425pt x 873.2625pt>
 File: img/random_dots.png Graphic file (type png)
 <use img/random_dots.png>
-Package pdftex.def Info: img/random_dots.png  used on input line 56.
+Package pdftex.def Info: img/random_dots.png  used on input line 57.
 (pdftex.def)             Requested size: 133.07489pt x 87.8377pt.
-<img/svg_quality.png, id=42, 892.33376pt x 399.4925pt>
+<img/svg_quality.png, id=43, 892.33376pt x 399.4925pt>
 File: img/svg_quality.png Graphic file (type png)
 <use img/svg_quality.png>
-Package pdftex.def Info: img/svg_quality.png  used on input line 88.
+Package pdftex.def Info: img/svg_quality.png  used on input line 89.
 (pdftex.def)             Requested size: 177.42868pt x 79.43379pt.
-<img/webgl_quality.png, id=43, 913.4125pt x 410.53375pt>
+<img/webgl_quality.png, id=44, 913.4125pt x 410.53375pt>
 File: img/webgl_quality.png Graphic file (type png)
 <use img/webgl_quality.png>
-Package pdftex.def Info: img/webgl_quality.png  used on input line 89.
+Package pdftex.def Info: img/webgl_quality.png  used on input line 90.
 (pdftex.def)             Requested size: 177.42868pt x 79.74367pt.
 [2 <./img/random_dots.png> <./img/svg_quality.png> <./img/webgl_quality.png>]
-Overfull \hbox (31.30965pt too wide) in paragraph at lines 96--100
+Overfull \hbox (31.30965pt too wide) in paragraph at lines 97--101
 \OT1/cmr/m/n/10 von Plotly zu Verf^^?ugung gestellt und sind unter fol-gen-dem Link zu finden: []$\OT1/cmtt/m/n/10 https : / / raw . githubusercontent .
  []
 
-<img/newyork_plotly.png, id=58, 1911.14pt x 873.2625pt>
+<img/newyork_plotly.png, id=60, 1911.14pt x 873.2625pt>
 File: img/newyork_plotly.png Graphic file (type png)
 <use img/newyork_plotly.png>
-Package pdftex.def Info: img/newyork_plotly.png  used on input line 120.
+Package pdftex.def Info: img/newyork_plotly.png  used on input line 121.
 (pdftex.def)             Requested size: 177.42868pt x 81.06866pt.
-<img/newyork_datashader.png, id=59, 1911.14pt x 816.04875pt>
+<img/newyork_datashader.png, id=61, 1911.14pt x 816.04875pt>
 File: img/newyork_datashader.png Graphic file (type png)
 <use img/newyork_datashader.png>
-Package pdftex.def Info: img/newyork_datashader.png  used on input line 121.
+Package pdftex.def Info: img/newyork_datashader.png  used on input line 122.
 (pdftex.def)             Requested size: 186.98424pt x 79.84087pt.
-<img/js_heap_plotly.png, id=60, 252.945pt x 201.75375pt>
+<img/js_heap_plotly.png, id=63, 252.945pt x 201.75375pt>
 File: img/js_heap_plotly.png Graphic file (type png)
 <use img/js_heap_plotly.png>
-Package pdftex.def Info: img/js_heap_plotly.png  used on input line 152.
+Package pdftex.def Info: img/js_heap_plotly.png  used on input line 153.
 (pdftex.def)             Requested size: 88.71434pt x 70.75955pt.
-<img/js_heap_datashader.png, id=61, 256.96pt x 258.9675pt>
+<img/js_heap_datashader.png, id=64, 256.96pt x 258.9675pt>
 File: img/js_heap_datashader.png Graphic file (type png)
 <use img/js_heap_datashader.png>
-Package pdftex.def Info: img/js_heap_datashader.png  used on input line 153.
+Package pdftex.def Info: img/js_heap_datashader.png  used on input line 154.
 (pdftex.def)             Requested size: 69.5448pt x 70.08751pt.
 [3 <./img/newyork_plotly.png> <./img/newyork_datashader.png> <./img/js_heap_plotly.png> <./img/js_heap_datashader.png>] [4] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 83A80B43EFA577A7D6C6303756C46D58;315.
+(rerunfilecheck)             Checksum: 9682899533785286869318B23F999B4D;305.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17131 strings out of 478268
- 303960 string characters out of 5846346
- 1026585 words of memory out of 5000000
- 35149 multiletter control sequences out of 15000+600000
+ 17143 strings out of 478268
+ 304516 string characters out of 5846346
+ 1027799 words of memory out of 5000000
+ 35158 multiletter control sequences out of 15000+600000
  475716 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,68p,787b,1787s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (4 pages, 3046914 bytes).
+Output written on report.pdf (4 pages, 3053139 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

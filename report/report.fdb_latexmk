@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1679143306 "report.bcf" "report.bbl" "report" 1679143354
-  "IVI.bib" 1679139194 1335 87d0d0667139e8bc5b3da34be6b1ee1f ""
-  "report.bcf" 1679143354 107360 5cbbff34ae19fd9b6982cacd211ca7a1 "pdflatex"
+["biber report"] 1679227380 "report.bcf" "report.bbl" "report" 1679227427
+  "IVI.bib" 1679226856 3246 e64749b5f03592e78fd2a44c01e23a1b ""
+  "report.bcf" 1679227427 107737 f576154369167226da362ced6655733e "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1679143352 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1679143354
-  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1679143351 6967 cc97c038b8f1f47d4cae7fc89cab1fed ""
+["pdflatex"] 1679227425 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1679227427
+  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1679227425 7524 eeed2163889518b0a162852db7b47d55 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -114,12 +114,12 @@
   "img/random_dots.png" 1679129737 748467 16e54c4b96b02a9b171bd6ad41983b70 ""
   "img/svg_quality.png" 1679131643 41145 ce64a45a0080ae33f733b8cf17a11dde ""
   "img/webgl_quality.png" 1679131643 52858 7d141a2e313de0ffcd5eb982c9f2d4f7 ""
-  "report.aux" 1679143354 3335 d6ef3287f21d28f90b6816ef76786b40 "pdflatex"
-  "report.bbl" 1679143308 6380 11e62ad25048667b7d2789f4cb529214 "biber report"
-  "report.out" 1679143354 315 83a80b43efa577a7d6c6303756c46d58 "pdflatex"
-  "report.run.xml" 1679143354 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
-  "report.tex" 1679143351 6967 cc97c038b8f1f47d4cae7fc89cab1fed ""
-  "report.toc" 1679143354 249 88eaf81d60fe18e913d2c93b30720a82 "pdflatex"
+  "report.aux" 1679227427 3826 18a3027d8d083fad59db1838f216c20e "pdflatex"
+  "report.bbl" 1679227382 9796 2ac3984f6d0704d54d531fcf729af581 "biber report"
+  "report.out" 1679227427 305 9682899533785286869318b23f999b4d "pdflatex"
+  "report.run.xml" 1679227427 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
+  "report.tex" 1679227425 7524 eeed2163889518b0a162852db7b47d55 ""
+  "report.toc" 1679227427 247 2f589ff19b4ea9f48756b19c02c58452 "pdflatex"
   (generated)
   "report.aux"
   "report.bcf"
