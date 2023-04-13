@@ -1,4 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}LE1: Performance}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}WebGL}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Layering}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Tiling}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}LE2: Grundsätze für die Gestaltung von Dashboards}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Schneiderman’s Mantra}{4}{subsection.2.1}%

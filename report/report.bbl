@@ -98,6 +98,28 @@
       \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2041200
       \endverb
     \endentry
+    \entry{noauthor_cpu_nodate}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The {CPU} and {GPU} are both essential components in modern computers. Here’s what you need to know when comparing a {CPU} vs. a {GPU}.}
+      \field{langid}{english}
+      \field{shorttitle}{{CPU} vs. {GPU}}
+      \field{title}{{CPU} vs. {GPU}: What's the Difference?}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/MLGR4UPX/cpu-vs-gpu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cdw.com/content/cdw/en/articles/hardware/cpu-vs-gpu.html
+      \endverb
+      \verb{url}
+      \verb https://www.cdw.com/content/cdw/en/articles/hardware/cpu-vs-gpu.html
+      \endverb
+    \endentry
     \entry{deckgl_home_nodate}{online}{}
       \name{author}{1}{}{%
         {{hash=0465a9e7e6d9641ebff3557462ac90d6}{%
@@ -129,6 +151,44 @@
       \endverb
       \verb{url}
       \verb https://deck.gl/
+      \endverb
+    \endentry
+    \entry{hampdatavisualization_schneidermans_2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=176582a643f98d5409de9fdf9f0b0549}{%
+           family={{HAMPDATAVISUALIZATION}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{176582a643f98d5409de9fdf9f0b0549}
+      \strng{fullhash}{176582a643f98d5409de9fdf9f0b0549}
+      \strng{bibnamehash}{176582a643f98d5409de9fdf9f0b0549}
+      \strng{authorbibnamehash}{176582a643f98d5409de9fdf9f0b0549}
+      \strng{authornamehash}{176582a643f98d5409de9fdf9f0b0549}
+      \strng{authorfullhash}{176582a643f98d5409de9fdf9f0b0549}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Schniederman’s Mantra is an extremely influential organizing principle for the creation of  visualization systems. It goes as follows: 1. Overview First 2. Zoom and Filter 3. Details on Deman…}
+      \field{day}{26}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Schneiderman’s Mantra}
+      \field{titleaddon}{Data Visualization}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/P7NGS7XN/schneidermans-mantra.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://hampdatavisualization.wordpress.com/2016/02/26/schneidermans-mantra/
+      \endverb
+      \verb{url}
+      \verb https://hampdatavisualization.wordpress.com/2016/02/26/schneidermans-mantra/
       \endverb
     \endentry
     \entry{kayce_basques_analyze_nodate}{online}{}
@@ -163,6 +223,28 @@
       \endverb
       \verb{url}
       \verb https://developer.chrome.com/docs/devtools/performance/
+      \endverb
+    \endentry
+    \entry{noauthor_map_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An introduction to map tiles: a method for visualizing big spatial data, including a guide for generating map tiles with Spatial {SQL}.}
+      \field{langid}{english}
+      \field{shorttitle}{Map Tiles}
+      \field{title}{Map Tiles: Everything You Need To Know}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/K8M7NYR9/map-tiles-guide.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://carto.com/blog/map-tiles-guide
+      \endverb
+      \verb{url}
+      \verb https://carto.com/blog/map-tiles-guide
       \endverb
     \endentry
     \entry{noauthor_measure_nodate}{online}{}

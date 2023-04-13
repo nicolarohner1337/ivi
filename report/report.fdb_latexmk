@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1679227380 "report.bcf" "report.bbl" "report" 1679227427
-  "IVI.bib" 1679226856 3246 e64749b5f03592e78fd2a44c01e23a1b ""
-  "report.bcf" 1679227427 107737 f576154369167226da362ced6655733e "pdflatex"
+["biber report"] 1681378382 "report.bcf" "report.bbl" "report" 1681378404
+  "IVI.bib" 1681378318 4812 4b3765605c88d01c2729258d5d906247 ""
+  "report.bcf" 1681378404 108151 33c46eb4549218d0c449c83ee6b0a52f "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1679227425 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1679227427
-  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1679227425 7524 eeed2163889518b0a162852db7b47d55 ""
+["pdflatex"] 1681378402 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1681378404
+  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1681378402 10391 785d36cae0a97316bbd17b6b0605ae1e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -77,6 +77,8 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def" 1643926307 32455 8d3e554836db11aab80a8e11be62e1b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1510525977 4578 2d37f6a8c72f47aacef79870545a713d ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1643926307 39965 48ce9ce3350aba9457f1020b1deba5cf ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty" 1647548653 54291 b8e5c600d4aa37b48a740dd2a6c26163 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1647548653 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -100,8 +102,10 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/makecell/makecell.sty" 1249334690 15773 2dd7dde1ec1c2a3d0c85bc3b273e04d8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty" 1636758526 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
@@ -114,12 +118,12 @@
   "img/random_dots.png" 1679129737 748467 16e54c4b96b02a9b171bd6ad41983b70 ""
   "img/svg_quality.png" 1679131643 41145 ce64a45a0080ae33f733b8cf17a11dde ""
   "img/webgl_quality.png" 1679131643 52858 7d141a2e313de0ffcd5eb982c9f2d4f7 ""
-  "report.aux" 1679227427 3826 18a3027d8d083fad59db1838f216c20e "pdflatex"
-  "report.bbl" 1679227382 9796 2ac3984f6d0704d54d531fcf729af581 "biber report"
-  "report.out" 1679227427 305 9682899533785286869318b23f999b4d "pdflatex"
-  "report.run.xml" 1679227427 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
-  "report.tex" 1679227425 7524 eeed2163889518b0a162852db7b47d55 ""
-  "report.toc" 1679227427 247 2f589ff19b4ea9f48756b19c02c58452 "pdflatex"
+  "report.aux" 1681378404 5119 368f6ecfaee806a4051211bc2f0d91ea "pdflatex"
+  "report.bbl" 1681378383 13318 deb6b5b9bc55cb4c3c7726c4369508d3 "biber report"
+  "report.out" 1681378404 775 e2dc399a94fd9e392ed2dc8295624c0b "pdflatex"
+  "report.run.xml" 1681378404 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
+  "report.tex" 1681378402 10391 785d36cae0a97316bbd17b6b0605ae1e ""
+  "report.toc" 1681378404 441 7688ebaf4facd5a91af32159f8f6004b "pdflatex"
   (generated)
   "report.aux"
   "report.bcf"

@@ -1,11 +1,13 @@
 \documentclass{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[letterpaper,top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
 \usepackage[english]{babel}
+\usepackage[skip=2pt]{caption}
 \usepackage{graphicx}
 \usepackage[colorlinks=false, allcolors=black, hidelinks=true]{hyperref}
 \usepackage{biblatex}
+\usepackage{makecell}
 \addbibresource{IVI.bib}
 
 \title{Interactive Visualizations (IVI) Bericht}
@@ -42,6 +44,29 @@ In Zeiten von Big Data ist es wichtig, dass Visualisierungen schnell und perform
 \subsection{WebGL}
 WebGL ist eine leistungsstarke Technologie, die Berechnungen beschleunigt. Allerdings gibt es einige Einschränkungen.
 WebGL benötigt eine GPU (Grafikkarte), die nicht immer in allen Browsern verfügbar ist.
+Die CPU verarbeitet alle Hauptfunktionen des Computers, während die GPU viele kleinere Aufgaben gleichzeitig ausführt.\cite{noauthor_cpu_nodate}
+
+%make 5x2 table
+%how can i align the text in the cells?
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{CPU} & \textbf{GPU} \\
+\hline
+\makecell[l]{Generalistische Komponente - Verarbeitet die \\ wichtigsten Verarbeitungsfunktionen eines Computers}& \makecell[l]{Spezialisierte Komponente - Verarbeitet \\Grafik- und Video-Rendering} \\
+\hline
+Kernanzahl- 2-64 (die meisten CPUs)&Kernanzahl- Tausende \\
+\hline
+Führt Prozesse seriell aus & Führt Prozesse parallel aus\\
+\hline
+\makecell[l]{Besser bei der Verarbeitung\\ einer großen Aufgabe zur gleichen Zeit} & \makecell[l]{Besser bei der Verarbeitung \\mehrerer kleinerer Aufgaben zur gleichen Zeit} \\
+\hline
+\end{tabular}
+\caption{\label{tab: LE1 CPU vs GPU}CPU vs GPU}
+\end{table}
+    
+\noindent
 Mit WebGL gerenderte Daten werden als Pixelraster gezeichnet, was in einigen Fällen zu verpixelten oder unscharfen Bildern führen kann.
 Browser begrenzen die Anzahl der WebGL Kontexte, auf die ein bestimmtes Webdokument zugreifen kann, was die Darstellung von WebGL-Visualisierungen einschränken kann.
 Browser setzen Grenzen für die Höhe und Breite von Visualisierungen, die WebGL verwenden, was bei extrem großen Plots zu Problemen führen kann.\cite{plotly_webgl_nodate}
@@ -54,7 +79,7 @@ Einmal wurde die Visualisierung mit dem Modus SVG und einmal mit WebGL gerendert
 %enter image here
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.3\textwidth]{img/random_dots.png}
+\includegraphics[width=0.2\textwidth]{img/random_dots.png}
 
 
 \caption{\label{fig: LE1 Random Dots plot}Random dots}
@@ -86,16 +111,20 @@ Zu beobachten ist ein signifikanter Unterschied in den Rendering und Painting Ze
 Auch die Tradeoffs zwischen Performance und Qualität sind deutlich zu erkennen. Die SVG Visualisierung ist deutlich schärfer und die Punkte sind deutlich besser zu erkennen.
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.4\textwidth]{img/svg_quality.png}
-\includegraphics[width=0.4\textwidth]{img/webgl_quality.png}
+\includegraphics[width=0.2\textwidth]{img/svg_quality.png}
+\includegraphics[width=0.2\textwidth]{img/webgl_quality.png}
 \setlength{\belowcaptionskip}{-10pt}
 \caption{\label{fig: LE1 Qualität Unterschiede} Qualität Unterschiede links SVG, rechts WebGL}
 \end{figure}
 \newpage
 
-\subsection{Layering}
+\subsection{Tiling}
+
+Tiling wurde von Google Maps erfunden, um die Rechenleistung zu optimieren. Die Karte wird in kleinere Teile unterteilt und nur die benötigten Daten für den jeweiligen Zoomlevel werden angezeigt.
+Diese kleineren Kacheln komprimieren nicht nur die Daten, sondern geben das Rendering an den Webbrowser ab, wodurch die für die Karte erforderliche Nutzlast weiter reduziert wird.\cite{noauthor_map_nodate}
 Datashader ist ein Grafik-Pipeline-System zur schnellen und flexiblen Erstellung aussagekräftiger Darstellungen grosser Datensätze. Datashader unterteilt die Erstellung von Bildern in eine Reihe expliziter Schritte, die es ermöglichen, Berechnungen an Zwischendarstellungen vorzunehmen.\cite{wong_abstract_2013}
-\newline
+\\
+\\
 Wir visualisieren hier die räumliche Verteilung der Taxifahrten in New York City. 
 Die Daten werden von Plotly zu Verfügung gestellt und sind unter folgendem Link zu finden: \url{https://raw.githubusercontent.com/plotly/datasets/master/uber-rides-data1.csv}
 
@@ -120,7 +149,7 @@ Die Daten werden von Plotly zu Verfügung gestellt und sind unter folgendem Link
 \centering
 \includegraphics[width=0.4\textwidth]{img/newyork_plotly.png}
 \includegraphics[height=0.18\textwidth]{img/newyork_datashader.png}
-\caption{\label{fig: LE1 Plotly vs Datashader} Taxifahrten in Newyork (Plotly links, Datashader Layer rechts)}
+\caption{\label{fig: LE1 Plotly vs Datashader} Taxifahrten in Newyork (Plotly links, Datashader Tiles rechts)}
 \end{figure}
 \noindent
 Zu beobachten ist das die unprozessierten Daten mit Plotly zwar schöner dargestellt werden. Aber viel länger brauchen um angezeigt zu werden. Die Datashader Visualisierung ist deutlich schneller und die Daten werden deutlich besser dargestellt.
@@ -132,7 +161,7 @@ Diese Beobachtungen wiederspiegeln sich auch in den Performance Daten. Zwar wird
     \centering
     \begin{tabular}{|l|l|l|l|}
     \hline
-    \textbf{Kategorie} & \textbf{Plotly} & \textbf{Datashader Layer} & \textbf{\%$\Delta$} \\
+    \textbf{Kategorie} & \textbf{Plotly} & \textbf{Datashader Tile} & \textbf{\%$\Delta$} \\
     \hline
     Scripting & 1241ms & 492ms & -39\% \\
     \hline
@@ -144,19 +173,34 @@ Diese Beobachtungen wiederspiegeln sich auch in den Performance Daten. Zwar wird
     \caption{\label{tab: LE1 Performance}Performance Unterschiede}
 \end{table}
 \noindent
-Spannender bei diesem Fall sind die Unteschiede des genutzen Speichers. Wenn wir den JavaScript Heap betrachten sehen wir einen signifikanten Unterschied\cite{noauthor_memory_2023}.
-Plotly braucht fast 130MB um die Daten zu visualisieren, der Datashader Layer braucht nur 23MB.
+Spannender bei diesem Fall sind die Unteschiede des genutzen Speichers. Wenn wir den JavaScript Heap betrachten sehen wir einen signifikanten Unterschied.\cite{noauthor_memory_2023}
+Plotly braucht fast 130MB um die Daten zu visualisieren, der Datashader Tile braucht nur 23MB.
 
 %enter image here
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.2\textwidth]{img/js_heap_plotly.png}
 \includegraphics[height=0.158\textwidth]{img/js_heap_datashader.png}
-\caption{\label{fig: LE1 Datashader Memory} Memory Heap Plotly vs. Datashader Layer}
+\caption{\label{fig: LE1 Datashader Memory} Memory Heap Plotly vs. Datashader Tile}
 \end{figure}
 \noindent
 Einen ähnlichen Ansatz verfolgen auch Framworks wie Deck.gl. Diese Frameworks sind jedoch auf WebGL basiert und können somit nur auf Browsern mit WebGL Unterstützung verwendet werden.
-Sie prozessieren für verschiedene Ansichte voragregierte Layers und können so sehr schnell und performant visualisieren.\cite{deckgl_home_nodate}
+Sie prozessieren für verschiedene Ansichte voragregierte Tiles und können so sehr schnell und performant visualisieren.\cite{deckgl_home_nodate}
+
+\newpage
+
+\section{LE2: Grundsätze für die Gestaltung von Dashboards}
+
+Ein wichtiger Aspekt bei der Entwicklung von Dashboards ist das Konzept. Dabei hat der Benutzer Zugriff auf verschiedene Steuerelemente und mehrere verknüpfte Visualisierungen. Diese Designprinzipien sind entscheidend für die Entwicklung eines erfolgreichen Dashboards.
+
+\subsection{Schneiderman’s Mantra}
+Schneiderman's Mantra ist ein Organisationsprinzip für die Erstellung von Visualisierungssystemen. Es lautet wie folgt:\\ \\
+\noindent
+\textbf{Overview first}: Im Überblicksschritt wird der gesamte Datensatz in einer geeigneten Anzeigemethode dargestellt. Dies bietet einen Überblick auf hoher Ebene und gibt Kontext für die nächsten Schritte in der Visualisierung.\\ \\
+\textbf{Zoom and filter}: Zoomen auf einen Abschnitt des Datensatzes ermöglicht das Entfernen von überflüssigen Daten anhand der angezeigten Koordinaten. So erhalten die relevanten Daten mehr Auflösung und Detail. Das Filtern entfernt überflüssige Daten basierend auf gewünschten Attributen, vereinfacht die Anzeige Ihrer Daten und schafft mehr Platz für Details.\\ \\
+\textbf{Details on demand}: Details auf Abruf geben dem Benutzer Kontrolle über die Daten und ermöglichen es, ohne Überladen des Bildschirms weiter zu erkunden. Das Tooltip ist die häufigste Implementierung. Eine andere Möglichkeit besteht darin, ein Feld auszuwählen und die Daten hervorzuheben.\cite{hampdatavisualization_schneidermans_2016}
+
+
 
 \newpage
 \printbibliography
