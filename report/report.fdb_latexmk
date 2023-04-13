@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1681378382 "report.bcf" "report.bbl" "report" 1681378404
-  "IVI.bib" 1681378318 4812 4b3765605c88d01c2729258d5d906247 ""
-  "report.bcf" 1681378404 108151 33c46eb4549218d0c449c83ee6b0a52f "pdflatex"
+["biber report"] 1681395959 "report.bcf" "report.bbl" "report" 1681395981
+  "IVI.bib" 1681395753 6717 06169c76fe75cd109204936437f9c282 ""
+  "report.bcf" 1681395980 108397 ef2d7fb308e5bfd56351f0b6b47c0127 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1681378402 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1681378404
-  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1681378402 10391 785d36cae0a97316bbd17b6b0605ae1e ""
+["pdflatex"] 1681395978 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1681395981
+  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1681395975 12585 70d7bd5c9f7986222641b372da26e856 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -111,19 +111,23 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1671551015 2826445 4e2829d89522b1893ea845f4c80a1ea8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
+  "img/brushing.png" 1681395914 43483 6e59cc55968b23708fd28ec1e932454a ""
   "img/js_heap_datashader.png" 1679142033 10186 c313c1675e5f1164cd4380eb00e0db9f ""
   "img/js_heap_plotly.png" 1679142033 9245 412977ed4f40a1b1b74dda89b20b5031 ""
+  "img/movies-scifi.png" 1681386839 31892 843ddb1b7652dfc38025a6b9ea9ad196 ""
+  "img/movies_genre.png" 1681386780 55874 840f83b646dddb6530bb9a30ada20ba8 ""
   "img/newyork_datashader.png" 1679140883 1194131 aa189a53d21368804719dd2a38ec659a ""
   "img/newyork_plotly.png" 1679140645 1491669 728ab8a8989c03dd52d1593d002dee06 ""
   "img/random_dots.png" 1679129737 748467 16e54c4b96b02a9b171bd6ad41983b70 ""
   "img/svg_quality.png" 1679131643 41145 ce64a45a0080ae33f733b8cf17a11dde ""
+  "img/tooltip.png" 1681387849 5979 5461b00fa31c2f41031ff8a7131b9e56 ""
   "img/webgl_quality.png" 1679131643 52858 7d141a2e313de0ffcd5eb982c9f2d4f7 ""
-  "report.aux" 1681378404 5119 368f6ecfaee806a4051211bc2f0d91ea "pdflatex"
-  "report.bbl" 1681378383 13318 deb6b5b9bc55cb4c3c7726c4369508d3 "biber report"
-  "report.out" 1681378404 775 e2dc399a94fd9e392ed2dc8295624c0b "pdflatex"
-  "report.run.xml" 1681378404 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
-  "report.tex" 1681378402 10391 785d36cae0a97316bbd17b6b0605ae1e ""
-  "report.toc" 1681378404 441 7688ebaf4facd5a91af32159f8f6004b "pdflatex"
+  "report.aux" 1681395980 6664 4b4f6e4a2af070ea840e4c92416a4bd3 "pdflatex"
+  "report.bbl" 1681395961 18304 3ab1642f5cbcb4334448b8d92b9c57f6 "biber report"
+  "report.out" 1681395980 1035 89d37d71fbe18eeefe3bd197d10ae9fd "pdflatex"
+  "report.run.xml" 1681395980 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
+  "report.tex" 1681395975 12585 70d7bd5c9f7986222641b372da26e856 ""
+  "report.toc" 1681395980 602 ff1b0d7530cdf83a01de68742c0c96ed "pdflatex"
   (generated)
   "report.aux"
   "report.bcf"

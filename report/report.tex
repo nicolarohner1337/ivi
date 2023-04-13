@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[letterpaper,top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage[letterpaper,top=1.5cm,bottom=1.5cm,left=2cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
 \usepackage[english]{babel}
 \usepackage[skip=2pt]{caption}
 \usepackage{graphicx}
@@ -199,10 +199,53 @@ Schneiderman's Mantra ist ein Organisationsprinzip für die Erstellung von Visua
 \textbf{Overview first}: Im Überblicksschritt wird der gesamte Datensatz in einer geeigneten Anzeigemethode dargestellt. Dies bietet einen Überblick auf hoher Ebene und gibt Kontext für die nächsten Schritte in der Visualisierung.\\ \\
 \textbf{Zoom and filter}: Zoomen auf einen Abschnitt des Datensatzes ermöglicht das Entfernen von überflüssigen Daten anhand der angezeigten Koordinaten. So erhalten die relevanten Daten mehr Auflösung und Detail. Das Filtern entfernt überflüssige Daten basierend auf gewünschten Attributen, vereinfacht die Anzeige Ihrer Daten und schafft mehr Platz für Details.\\ \\
 \textbf{Details on demand}: Details auf Abruf geben dem Benutzer Kontrolle über die Daten und ermöglichen es, ohne Überladen des Bildschirms weiter zu erkunden. Das Tooltip ist die häufigste Implementierung. Eine andere Möglichkeit besteht darin, ein Feld auszuwählen und die Daten hervorzuheben.\cite{hampdatavisualization_schneidermans_2016}
+\\
+Eine mögliche Umsetzung mit diesem Prinzip könnte wie folgt aussehen. Im ersten Schritt wird eine Übersicht über die Anzahl Filme pro Genre gegeben.
 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/movies_genre.png}
+\caption{\label{fig: LE2 Schneiderman Overview} Genre Übersicht}
+\end{figure}
+
+
+Wenn der Benutzer nun auf ein Genre klickt oder auf ein Genre zoomt wird die Anzahl Filme pro Jahr angezeigt.\\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/movies-scifi.png}
+\caption{\label{fig: LE2 Schneiderman Zoom} Filtering/Zooming: Anzahl Filme pro Jahr}
+\end{figure}
+
+
+Mit einem Tooltip kann der Benutzer nun die Details zum einzelnen Film einsehen.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{img/tooltip.png}
+    \caption{\label{fig: LE2 Schneiderman Zoom} Tooltip: Details on demand}
+    \end{figure}
+Diese Interaktionen können mit Hilfe Plotly.js Chart Events realisiert werden. Wenn ein solches Event getriggert wird kann die Funktion \texttt{Plotly.restyle} aufgerufen werden. Diese Funktion ermöglicht es die Daten eines Charts zu ändern.\\
 
 
 \newpage
+\subsection{Verknüpfte Ansichten}
+Das Paradigma der verknüpften Ansichten ist eine Methode, die mehrere einfache Ansichten von Daten verwendet. Wenn Sie mit einer Ansicht interagieren, ändert sich die Anzeige der Daten in allen verknüpften Ansichten. Ein einfaches Beispiel wäre, dass die Auswahl eines Datums in einer Ansicht die Daten in allen anderen Ansichten auch ändert.
+Kurz gesagt wenn sich eine Ansicht ändert, ändern sich alle anderen Ansichten auch.\cite{wills_linked_2008} \\
+%TODO: add image
+\subsection{Brushing}
+Brushing ist eine Methode, die es ermöglicht, Daten in einer Ansicht zu selektieren und diese dann in anderen Ansichten zu verwenden. Ein Beispiel wäre, dass Sie eine Ansicht mit einem Scatterplot haben, in der Sie einen Bereich selektieren. Diese Selektion wird dann in einer anderen Ansicht mit einem Histogramm verwendet.\cite{becker_brushing_1987} \\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/brushing.png}
+\caption{\label{fig: LE2 Brushing} Brushing}
+
+\end{figure}
+\newpage
+
+
 \printbibliography
 
 

@@ -2353,15 +2353,19 @@
     <bcf:citekey order="7">noauthor_memory_2023</bcf:citekey>
     <bcf:citekey order="8">deckgl_home_nodate</bcf:citekey>
     <bcf:citekey order="9">hampdatavisualization_schneidermans_2016</bcf:citekey>
-    <bcf:citekey order="10">noauthor_cpu_nodate</bcf:citekey>
-    <bcf:citekey order="11">plotly_webgl_nodate</bcf:citekey>
-    <bcf:citekey order="12">noauthor_measure_nodate</bcf:citekey>
-    <bcf:citekey order="13">kayce_basques_analyze_nodate</bcf:citekey>
-    <bcf:citekey order="14">noauthor_map_nodate</bcf:citekey>
-    <bcf:citekey order="15">wong_abstract_2013</bcf:citekey>
-    <bcf:citekey order="16">noauthor_memory_2023</bcf:citekey>
-    <bcf:citekey order="17">deckgl_home_nodate</bcf:citekey>
-    <bcf:citekey order="18">hampdatavisualization_schneidermans_2016</bcf:citekey>
+    <bcf:citekey order="10">wills_linked_2008</bcf:citekey>
+    <bcf:citekey order="11">becker_brushing_1987</bcf:citekey>
+    <bcf:citekey order="12">noauthor_cpu_nodate</bcf:citekey>
+    <bcf:citekey order="13">plotly_webgl_nodate</bcf:citekey>
+    <bcf:citekey order="14">noauthor_measure_nodate</bcf:citekey>
+    <bcf:citekey order="15">kayce_basques_analyze_nodate</bcf:citekey>
+    <bcf:citekey order="16">noauthor_map_nodate</bcf:citekey>
+    <bcf:citekey order="17">wong_abstract_2013</bcf:citekey>
+    <bcf:citekey order="18">noauthor_memory_2023</bcf:citekey>
+    <bcf:citekey order="19">deckgl_home_nodate</bcf:citekey>
+    <bcf:citekey order="20">hampdatavisualization_schneidermans_2016</bcf:citekey>
+    <bcf:citekey order="21">wills_linked_2008</bcf:citekey>
+    <bcf:citekey order="22">becker_brushing_1987</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

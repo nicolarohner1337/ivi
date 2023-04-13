@@ -19,6 +19,55 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{becker_brushing_1987}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8a8da879a5f4da4614e54229c36e9eab}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=891ad1f1560d4ca4d59acb11065fd649}{%
+           family={Cleveland},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{913feb992c639212a31a71d9b6935a3c}
+      \strng{fullhash}{913feb992c639212a31a71d9b6935a3c}
+      \strng{bibnamehash}{913feb992c639212a31a71d9b6935a3c}
+      \strng{authorbibnamehash}{913feb992c639212a31a71d9b6935a3c}
+      \strng{authornamehash}{913feb992c639212a31a71d9b6935a3c}
+      \strng{authorfullhash}{913feb992c639212a31a71d9b6935a3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-1706, 1537-2723}
+      \field{journaltitle}{Technometrics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{2}
+      \field{shortjournal}{Technometrics}
+      \field{title}{Brushing Scatterplots}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{29}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{127\bibrangedash 142}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/00401706.1987.10488204
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/00401706.1987.10488204
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/00401706.1987.10488204
+      \endverb
+    \endentry
     \entry{wong_abstract_2013}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=dbe1e80d307b4d684915f9312dec0c26}{%
@@ -325,6 +374,75 @@
       \verb{url}
       \verb https://plotly.com/python/webgl-vs-svg/
       \endverb
+    \endentry
+    \entry{wills_linked_2008}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=e1686bf28590eb056af0a454314d1493}{%
+           family={Wills},
+           familyi={W\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=9834d4293a7c46d6815ed6430adf8698}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chun-houh},
+           giveni={C\bibinithyphendelim h\bibinitperiod}}}%
+        {{hash=9569d8255a1089c8b1c86050c6e7a35e}{%
+           family={Härdle},
+           familyi={H\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fef02797c475524db141bc41263fd993}{%
+           family={Unwin},
+           familyi={U\bibinitperiod},
+           given={Antony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e1686bf28590eb056af0a454314d1493}
+      \strng{fullhash}{e1686bf28590eb056af0a454314d1493}
+      \strng{bibnamehash}{e1686bf28590eb056af0a454314d1493}
+      \strng{authorbibnamehash}{e1686bf28590eb056af0a454314d1493}
+      \strng{authornamehash}{e1686bf28590eb056af0a454314d1493}
+      \strng{authorfullhash}{e1686bf28590eb056af0a454314d1493}
+      \strng{editorbibnamehash}{31b0dbee65b758b95f961d0daa579add}
+      \strng{editornamehash}{31b0dbee65b758b95f961d0daa579add}
+      \strng{editorfullhash}{31b0dbee65b758b95f961d0daa579add}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The linked views paradigm is a method of taking multiple simple views of data and allowing interactions with one to modify the display of data in all the linked views. A simple example is that selecting a data case in one view shows that data case highlighted in all other views. In this section we define the underlying methodology and show how it has been applied historically and how it can be extended to provide enhanced power. In particular we focus on displays of aggregated data and linking domain-specific views such as graph layouts and maps to statistical views.}
+      \field{booktitle}{Handbook of Data Visualization}
+      \field{isbn}{978-3-540-33037-0}
+      \field{langid}{english}
+      \field{series}{Springer Handbooks Comp.Statistics}
+      \field{title}{Linked Data Views}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{217\bibrangedash 241}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/978-3-540-33037-0_10
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-33037-0_10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-33037-0_10
+      \endverb
+      \keyw{Data View,Dynamic Graphic,National League,Salary Data,Summary Function}
     \endentry
   \enddatalist
 \endrefsection
