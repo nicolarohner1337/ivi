@@ -169,6 +169,27 @@
       \verb https://www.cdw.com/content/cdw/en/articles/hardware/cpu-vs-gpu.html
       \endverb
     \endentry
+    \entry{noauthor_dash_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dash is a framework for building data apps in Python. Dash Enterprise simplifies the development and deployment process in a secure, scalable environment.}
+      \field{langid}{english}
+      \field{title}{Dash Overview}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/L34HA24M/dash.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://plotly.com/dash
+      \endverb
+      \verb{url}
+      \verb https://plotly.com/dash
+      \endverb
+    \endentry
     \entry{deckgl_home_nodate}{online}{}
       \name{author}{1}{}{%
         {{hash=0465a9e7e6d9641ebff3557462ac90d6}{%
@@ -374,6 +395,43 @@
       \verb{url}
       \verb https://plotly.com/python/webgl-vs-svg/
       \endverb
+    \endentry
+    \entry{shneiderman_eyes_1996}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8e89956c17f13bcda5591c1537b38051}{%
+           family={Shneiderman},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e89956c17f13bcda5591c1537b38051}
+      \strng{fullhash}{8e89956c17f13bcda5591c1537b38051}
+      \strng{bibnamehash}{8e89956c17f13bcda5591c1537b38051}
+      \strng{authorbibnamehash}{8e89956c17f13bcda5591c1537b38051}
+      \strng{authornamehash}{8e89956c17f13bcda5591c1537b38051}
+      \strng{authorfullhash}{8e89956c17f13bcda5591c1537b38051}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A useful starting point for designing advanced graphical user interfaces is the visual information seeking Mantra: overview first, zoom and filter, then details on demand. But this is only a starting point in trying to understand the rich and varied set of information visualizations that have been proposed in recent years. The paper offers a task by data type taxonomy with seven data types (one, two, three dimensional data, temporal and multi dimensional data, and tree and network data) and seven tasks (overview, zoom, filter, details-on-demand, relate, history, and extracts).}
+      \field{booktitle}{Proceedings 1996 {IEEE} Symposium on Visual Languages}
+      \field{eventtitle}{Proceedings 1996 {IEEE} Symposium on Visual Languages}
+      \field{month}{9}
+      \field{note}{{ISSN}: 1049-2615}
+      \field{shorttitle}{The eyes have it}
+      \field{title}{The eyes have it: a task by data type taxonomy for information visualizations}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{336\bibrangedash 343}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/VL.1996.545307
+      \endverb
+      \verb{file}
+      \verb Eingereichte Version:/Users/nicolarohner/Zotero/storage/8GB54629/Shneiderman - 1996 - The eyes have it a task by data type taxonomy for.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/nicolarohner/Zotero/storage/38EBFX3W/stamp.html:text/html
+      \endverb
+      \keyw{Art,Data mining,Data visualization,Displays,Eyes,Information filtering,Information filters,Multimedia databases,Taxonomy,Visual databases}
     \endentry
     \entry{wills_linked_2008}{incollection}{}
       \name{author}{1}{}{%

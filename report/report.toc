@@ -6,3 +6,5 @@
 \contentsline {subsection}{\numberline {2.1}Schneiderman’s Mantra}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Verknüpfte Ansichten}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Brushing}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Filtering}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Implementation mit Dash}{5}{subsection.2.5}%

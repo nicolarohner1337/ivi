@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report"] 1681395959 "report.bcf" "report.bbl" "report" 1681395981
-  "IVI.bib" 1681395753 6717 06169c76fe75cd109204936437f9c282 ""
-  "report.bcf" 1681395980 108397 ef2d7fb308e5bfd56351f0b6b47c0127 "pdflatex"
+["biber report"] 1681402767 "report.bcf" "report.bbl" "report" 1681402837
+  "IVI.bib" 1681402272 8568 8b8b411bf41d4489fdb1fb92a8d2e3f5 ""
+  "report.bcf" 1681402837 108651 af1c158715a97393464ddeb194248992 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1681395978 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1681395981
-  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1681395975 12585 70d7bd5c9f7986222641b372da26e856 ""
+["pdflatex"] 1681402835 "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" "report.pdf" "report" 1681402837
+  "/Users/nicolarohner/Documents/GitHub/ivi/report/report.tex" 1681402832 13876 d92a3cff1cd56a096e75d20f04d2187c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -112,6 +112,7 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1671551015 2826445 4e2829d89522b1893ea845f4c80a1ea8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "img/brushing.png" 1681395914 43483 6e59cc55968b23708fd28ec1e932454a ""
+  "img/dashboard_plotly.png" 1681402339 91315 705c8cec164f155411a57cb41075be41 ""
   "img/js_heap_datashader.png" 1679142033 10186 c313c1675e5f1164cd4380eb00e0db9f ""
   "img/js_heap_plotly.png" 1679142033 9245 412977ed4f40a1b1b74dda89b20b5031 ""
   "img/movies-scifi.png" 1681386839 31892 843ddb1b7652dfc38025a6b9ea9ad196 ""
@@ -122,12 +123,12 @@
   "img/svg_quality.png" 1679131643 41145 ce64a45a0080ae33f733b8cf17a11dde ""
   "img/tooltip.png" 1681387849 5979 5461b00fa31c2f41031ff8a7131b9e56 ""
   "img/webgl_quality.png" 1679131643 52858 7d141a2e313de0ffcd5eb982c9f2d4f7 ""
-  "report.aux" 1681395980 6664 4b4f6e4a2af070ea840e4c92416a4bd3 "pdflatex"
-  "report.bbl" 1681395961 18304 3ab1642f5cbcb4334448b8d92b9c57f6 "biber report"
-  "report.out" 1681395980 1035 89d37d71fbe18eeefe3bd197d10ae9fd "pdflatex"
-  "report.run.xml" 1681395980 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
-  "report.tex" 1681395975 12585 70d7bd5c9f7986222641b372da26e856 ""
-  "report.toc" 1681395980 602 ff1b0d7530cdf83a01de68742c0c96ed "pdflatex"
+  "report.aux" 1681402837 7447 60227f5c327192c8a9796279a0a4f8d5 "pdflatex"
+  "report.bbl" 1681402769 21511 9debb02fd9a804f779b2b687d3d793e4 "biber report"
+  "report.out" 1681402837 1315 4a886c221be0480e42ba86b7b5863830 "pdflatex"
+  "report.run.xml" 1681402837 2312 c2a244c70602e29be15cf0a8664aee8c "pdflatex"
+  "report.tex" 1681402832 13876 d92a3cff1cd56a096e75d20f04d2187c ""
+  "report.toc" 1681402837 766 a1da590e325628ec5d54b5ec5d425bd1 "pdflatex"
   (generated)
   "report.aux"
   "report.bcf"

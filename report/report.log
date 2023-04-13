@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  13 APR 2023 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  13 APR 2023 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -491,11 +491,11 @@ LaTeX Font Info:    ... okay on input line 17.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 486.25761pt, 71.13188pt)
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
 * v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=486.25761pt
+* \textwidth=500.484pt
 * \textheight=709.61174pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
@@ -584,11 +584,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 28.
 
-Overfull \hbox (3.67938pt too wide) in paragraph at lines 26--34
-\OT1/cmr/m/n/9 Anwendungen f^^?ur 58.000 Filme von 280.000 Nutzern. Bein-hal-tet Tag-Genom-Daten mit 14 Mil-lio-nen Relevanz-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--34
 
  []
@@ -604,57 +599,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
-<img/random_dots.png, id=60, 1322.9425pt x 873.2625pt>
+<img/random_dots.png, id=70, 1322.9425pt x 873.2625pt>
 File: img/random_dots.png Graphic file (type png)
 <use img/random_dots.png>
 Package pdftex.def Info: img/random_dots.png  used on input line 82.
-(pdftex.def)             Requested size: 97.25003pt x 64.18602pt.
-<img/svg_quality.png, id=64, 892.33376pt x 399.4925pt>
+(pdftex.def)             Requested size: 100.09526pt x 66.06482pt.
+<img/svg_quality.png, id=74, 892.33376pt x 399.4925pt>
 File: img/svg_quality.png Graphic file (type png)
 <use img/svg_quality.png>
 Package pdftex.def Info: img/svg_quality.png  used on input line 114.
-(pdftex.def)             Requested size: 97.25003pt x 43.53589pt.
-<img/webgl_quality.png, id=65, 913.4125pt x 410.53375pt>
+(pdftex.def)             Requested size: 100.09526pt x 44.8099pt.
+<img/webgl_quality.png, id=75, 913.4125pt x 410.53375pt>
 File: img/webgl_quality.png Graphic file (type png)
 <use img/webgl_quality.png>
 Package pdftex.def Info: img/webgl_quality.png  used on input line 115.
-(pdftex.def)             Requested size: 97.25003pt x 43.70554pt.
+(pdftex.def)             Requested size: 100.09526pt x 44.98344pt.
 [2 <./img/random_dots.png> <./img/svg_quality.png> <./img/webgl_quality.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 123--130
 
  []
 
-<img/newyork_plotly.png, id=84, 1911.14pt x 873.2625pt>
+<img/newyork_plotly.png, id=94, 1911.14pt x 873.2625pt>
 File: img/newyork_plotly.png Graphic file (type png)
 <use img/newyork_plotly.png>
 Package pdftex.def Info: img/newyork_plotly.png  used on input line 150.
-(pdftex.def)             Requested size: 194.50008pt x 88.86372pt.
-<img/newyork_datashader.png, id=85, 1911.14pt x 816.04875pt>
+(pdftex.def)             Requested size: 200.19054pt x 91.46208pt.
+<img/newyork_datashader.png, id=95, 1911.14pt x 816.04875pt>
 File: img/newyork_datashader.png Graphic file (type png)
 <use img/newyork_datashader.png>
 Package pdftex.def Info: img/newyork_datashader.png  used on input line 151.
-(pdftex.def)             Requested size: 204.9478pt x 87.5228pt.
-<img/js_heap_plotly.png, id=87, 252.945pt x 201.75375pt>
+(pdftex.def)             Requested size: 210.9551pt x 90.08345pt.
+<img/js_heap_plotly.png, id=97, 252.945pt x 201.75375pt>
 File: img/js_heap_plotly.png Graphic file (type png)
 <use img/js_heap_plotly.png>
 Package pdftex.def Info: img/js_heap_plotly.png  used on input line 182.
-(pdftex.def)             Requested size: 97.25003pt x 77.56921pt.
-<img/js_heap_datashader.png, id=88, 256.96pt x 258.9675pt>
+(pdftex.def)             Requested size: 100.09526pt x 79.83807pt.
+<img/js_heap_datashader.png, id=98, 256.96pt x 258.9675pt>
 File: img/js_heap_datashader.png Graphic file (type png)
 <use img/js_heap_datashader.png>
 Package pdftex.def Info: img/js_heap_datashader.png  used on input line 183.
-(pdftex.def)             Requested size: 76.23383pt x 76.83101pt.
+(pdftex.def)             Requested size: 78.46481pt x 79.07884pt.
 [3 <./img/newyork_plotly.png> <./img/newyork_datashader.png> <./img/js_heap_plotly.png> <./img/js_heap_datashader.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--204
 
  []
 
 
-Overfull \hbox (5.91768pt too wide) in paragraph at lines 197--204
-\OT1/cmr/bx/n/10 Overview first\OT1/cmr/m/n/10 : Im []Uberblickss-chritt wird der gesamte Daten-satz in einer geeigneten Anzeigemeth-ode dargestellt.
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 197--204
 
  []
@@ -664,26 +654,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--204
 
  []
 
-<img/movies_genre.png, id=109, 908.39375pt x 451.6875pt>
+<img/movies_genre.png, id=119, 908.39375pt x 451.6875pt>
 File: img/movies_genre.png Graphic file (type png)
 <use img/movies_genre.png>
 Package pdftex.def Info: img/movies_genre.png  used on input line 208.
-(pdftex.def)             Requested size: 194.50008pt x 96.71117pt.
+(pdftex.def)             Requested size: 200.19054pt x 99.53696pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-<img/movies-scifi.png, id=110, 908.39375pt x 451.6875pt>
+<img/movies-scifi.png, id=120, 908.39375pt x 451.6875pt>
 File: img/movies-scifi.png Graphic file (type png)
 <use img/movies-scifi.png>
 Package pdftex.def Info: img/movies-scifi.png  used on input line 217.
-(pdftex.def)             Requested size: 194.50008pt x 96.71117pt.
-<img/tooltip.png, id=111, 164.615pt x 52.195pt>
+(pdftex.def)             Requested size: 200.19054pt x 99.53696pt.
+<img/tooltip.png, id=121, 164.615pt x 52.195pt>
 File: img/tooltip.png Graphic file (type png)
 <use img/tooltip.png>
 Package pdftex.def Info: img/tooltip.png  used on input line 226.
-(pdftex.def)             Requested size: 97.25003pt x 30.83618pt.
+(pdftex.def)             Requested size: 100.09526pt x 31.73775pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
@@ -699,44 +689,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-<img/brushing.png, id=125, 754.82pt x 375.4025pt>
+<img/brushing.png, id=135, 754.82pt x 375.4025pt>
 File: img/brushing.png Graphic file (type png)
 <use img/brushing.png>
 Package pdftex.def Info: img/brushing.png  used on input line 242.
-(pdftex.def)             Requested size: 194.50008pt x 96.73166pt.
-[5 <./img/brushing.png>]
-Overfull \hbox (13.73949pt too wide) in paragraph at lines 250--250
-\OT1/cmtt/m/n/10 / / hampdatavisualization . wordpress . com / 2016 / 02 / 26 / schneidermans -[] mantra/$[] \OT1/cmr/m/n/10 (vis-ited on 04/13/2023). 
+(pdftex.def)             Requested size: 200.19054pt x 99.56137pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--251
+
  []
 
 
-Overfull \hbox (6.4926pt too wide) in paragraph at lines 250--250
-[]\OT1/cmr/m/it/10 Measure per-for-mance with the RAIL model\OT1/cmr/m/n/10 . web.dev. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / web . dev / rail/$[] \OT1/cmr/m/n/10 (vis-ited on 03/19/2023). 
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
  []
 
-[6] (./report.aux)
+<img/dashboard_plotly.png, id=138, 1902.10625pt x 858.20625pt>
+File: img/dashboard_plotly.png Graphic file (type png)
+<use img/dashboard_plotly.png>
+Package pdftex.def Info: img/dashboard_plotly.png  used on input line 259.
+(pdftex.def)             Requested size: 200.19054pt x 90.31729pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+[5 <./img/brushing.png> <./img/dashboard_plotly.png>] [6] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 89D37D71FBE18EEEFE3BD197D10AE9FD;1035.
+(rerunfilecheck)             Checksum: 4A886C221BE0480E42BA86B7B5863830;1315.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18731 strings out of 478268
- 334983 string characters out of 5846346
- 1052566 words of memory out of 5000000
- 36713 multiletter control sequences out of 15000+600000
+ 18762 strings out of 478268
+ 335885 string characters out of 5846346
+ 1052734 words of memory out of 5000000
+ 36738 multiletter control sequences out of 15000+600000
  475716 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,68p,787b,1787s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (6 pages, 3147015 bytes).
+Output written on report.pdf (6 pages, 3202950 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

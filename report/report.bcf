@@ -2355,17 +2355,21 @@
     <bcf:citekey order="9">hampdatavisualization_schneidermans_2016</bcf:citekey>
     <bcf:citekey order="10">wills_linked_2008</bcf:citekey>
     <bcf:citekey order="11">becker_brushing_1987</bcf:citekey>
-    <bcf:citekey order="12">noauthor_cpu_nodate</bcf:citekey>
-    <bcf:citekey order="13">plotly_webgl_nodate</bcf:citekey>
-    <bcf:citekey order="14">noauthor_measure_nodate</bcf:citekey>
-    <bcf:citekey order="15">kayce_basques_analyze_nodate</bcf:citekey>
-    <bcf:citekey order="16">noauthor_map_nodate</bcf:citekey>
-    <bcf:citekey order="17">wong_abstract_2013</bcf:citekey>
-    <bcf:citekey order="18">noauthor_memory_2023</bcf:citekey>
-    <bcf:citekey order="19">deckgl_home_nodate</bcf:citekey>
-    <bcf:citekey order="20">hampdatavisualization_schneidermans_2016</bcf:citekey>
-    <bcf:citekey order="21">wills_linked_2008</bcf:citekey>
-    <bcf:citekey order="22">becker_brushing_1987</bcf:citekey>
+    <bcf:citekey order="12">shneiderman_eyes_1996</bcf:citekey>
+    <bcf:citekey order="13">noauthor_dash_nodate</bcf:citekey>
+    <bcf:citekey order="14">noauthor_cpu_nodate</bcf:citekey>
+    <bcf:citekey order="15">plotly_webgl_nodate</bcf:citekey>
+    <bcf:citekey order="16">noauthor_measure_nodate</bcf:citekey>
+    <bcf:citekey order="17">kayce_basques_analyze_nodate</bcf:citekey>
+    <bcf:citekey order="18">noauthor_map_nodate</bcf:citekey>
+    <bcf:citekey order="19">wong_abstract_2013</bcf:citekey>
+    <bcf:citekey order="20">noauthor_memory_2023</bcf:citekey>
+    <bcf:citekey order="21">deckgl_home_nodate</bcf:citekey>
+    <bcf:citekey order="22">hampdatavisualization_schneidermans_2016</bcf:citekey>
+    <bcf:citekey order="23">wills_linked_2008</bcf:citekey>
+    <bcf:citekey order="24">becker_brushing_1987</bcf:citekey>
+    <bcf:citekey order="25">shneiderman_eyes_1996</bcf:citekey>
+    <bcf:citekey order="26">noauthor_dash_nodate</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

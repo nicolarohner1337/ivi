@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[letterpaper,top=1.5cm,bottom=1.5cm,left=2cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage[letterpaper,top=1.5cm,bottom=1.5cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
 \usepackage[english]{babel}
 \usepackage[skip=2pt]{caption}
 \usepackage{graphicx}
@@ -241,8 +241,28 @@ Brushing ist eine Methode, die es ermöglicht, Daten in einer Ansicht zu selekti
 \centering
 \includegraphics[width=0.4\textwidth]{img/brushing.png}
 \caption{\label{fig: LE2 Brushing} Brushing}
-
 \end{figure}
+
+\subsection{Filtering}
+Dynamische Abfragen sind eine direkte Möglichkeit, um Daten mit Schiebereglern, Knöpfen und Kategorien zu filtern. 
+Sie zeigen globale Eigenschaften auf und helfen bei der Beantwortung spezifischer Fragen ohne Fehlermeldungen. 
+Fortgeschrittene Filter erlauben in der Regel OR-Kombinationen innerhalb eines Attributs oder AND-Kombinationen über Attribute hinweg. 
+So können komplexere Abfragen gestellt werden.\cite{shneiderman_eyes_1996} \\
+
+\subsection{Implementation mit Dash}
+
+Mit Dash habe ich ein interaktives Dashboard entwickelt, welches die oben genannten Prinzipien implementiert. Das Dashboard ist in Python geschrieben und basiert auf dem Dash Framework. Dash ist ein Framework, welches auf Plotly.js basiert und es ermöglicht interaktive Webanwendungen zu entwickeln.\cite{noauthor_dash_nodate} \\
+
+%add image
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/dashboard_plotly.png}
+\caption{\label{fig: LE2 Dashboard} Dashboard}
+\end{figure}
+
+Mit einem Mulit-Select können die Genres ausgewählt werden. Es wird eine zusätzliche verknüopfte Ansicht angezeigt, welche die Anzahl Filme pro Jahr anzeigt.\\
+Zudem kann mit einem Datepicker ein Zeitraum ausgewählt werden. Dieser wird dann in allen anderen Ansichten verwendet.\\
+
 \newpage
 
 
