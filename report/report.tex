@@ -8,6 +8,8 @@
 \usepackage[colorlinks=false, allcolors=black, hidelinks=true]{hyperref}
 \usepackage{biblatex}
 \usepackage{makecell}
+\usepackage{appendix}
+
 \addbibresource{IVI.bib}
 
 \title{Interactive Visualizations (IVI) Bericht}
@@ -26,7 +28,7 @@
 In diesem Bericht werden die Lernergebnisse des Moduls IVI zusammengefasst.\\
 Für alle ausser LE1 wurden folgende Daten verwendet: \newline
 GroupLens Research hat Bewertungsdatensätze von der MovieLens-Website \url{https://movielens.org} gesammelt und zur Verfügung gestellt.
-Die Datensätze wurden über verschiedene Zeiträume hinweg gesammelt, abhängig von der Größe des Satzes. Das ZIP findet man unter folgendem Link: \url{https://files.grouplens.org/datasets/movielens/ml-latest.zip}
+Die Datensätze wurden über verschiedene Zeiträume hinweg gesammelt, abhängig von der Grösse des Satzes. Das ZIP findet man unter folgendem Link: \url{https://files.grouplens.org/datasets/movielens/ml-latest.zip}
 Die Daten umfassen 27.000.000 Bewertungen und 1.100.000 Tag-Anwendungen für 58.000 Filme von 280.000 Nutzern. Beinhaltet Tag-Genom-Daten mit 14 Millionen Relevanz-Scores für 1.100 Tags.\\
 \noindent\\
 Die Visualisierungen in diesem Bericht wurden alle selbst erstellt. 
@@ -60,7 +62,7 @@ Kernanzahl- 2-64 (die meisten CPUs)&Kernanzahl- Tausende \\
 \hline
 Führt Prozesse seriell aus & Führt Prozesse parallel aus\\
 \hline
-\makecell[l]{Besser bei der Verarbeitung\\ einer großen Aufgabe zur gleichen Zeit} & \makecell[l]{Besser bei der Verarbeitung \\mehrerer kleinerer Aufgaben zur gleichen Zeit} \\
+\makecell[l]{Besser bei der Verarbeitung\\ einer grossen Aufgabe zur gleichen Zeit} & \makecell[l]{Besser bei der Verarbeitung \\mehrerer kleinerer Aufgaben zur gleichen Zeit} \\
 \hline
 \end{tabular}
 \caption{\label{tab: LE1 CPU vs GPU}CPU vs GPU}
@@ -69,7 +71,7 @@ Führt Prozesse seriell aus & Führt Prozesse parallel aus\\
 \noindent
 Mit WebGL gerenderte Daten werden als Pixelraster gezeichnet, was in einigen Fällen zu verpixelten oder unscharfen Bildern führen kann.
 Browser begrenzen die Anzahl der WebGL Kontexte, auf die ein bestimmtes Webdokument zugreifen kann, was die Darstellung von WebGL-Visualisierungen einschränken kann.
-Browser setzen Grenzen für die Höhe und Breite von Visualisierungen, die WebGL verwenden, was bei extrem großen Plots zu Problemen führen kann.\cite{plotly_webgl_nodate}
+Browser setzen Grenzen für die Höhe und Breite von Visualisierungen, die WebGL verwenden, was bei extrem grossen Plots zu Problemen führen kann.\cite{plotly_webgl_nodate}
 %hard break
 \newline
 \newline
@@ -80,8 +82,6 @@ Einmal wurde die Visualisierung mit dem Modus SVG und einmal mit WebGL gerendert
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.2\textwidth]{img/random_dots.png}
-
-
 \caption{\label{fig: LE1 Random Dots plot}Random dots}
 \end{figure}
 
@@ -120,8 +120,10 @@ Auch die Tradeoffs zwischen Performance und Qualität sind deutlich zu erkennen.
 
 \subsection{Tiling}
 
-Tiling wurde von Google Maps erfunden, um die Rechenleistung zu optimieren. Die Karte wird in kleinere Teile unterteilt und nur die benötigten Daten für den jeweiligen Zoomlevel werden angezeigt.
-Diese kleineren Kacheln komprimieren nicht nur die Daten, sondern geben das Rendering an den Webbrowser ab, wodurch die für die Karte erforderliche Nutzlast weiter reduziert wird.\cite{noauthor_map_nodate}
+Tiling kann die Performance von interaktiven Visualisierungen von grossen Datenmengen verbessern, 
+indem es die Daten in kleinere Kacheln aufteilt und nur die benötigten Teile lädt und darstellt. 
+Dadurch wird die Rechenleistung effektiver genutzt und die Belastung auf den Computer verringert. 
+Die interaktive Natur von Tiling ermöglicht es den Benutzern, schnell und einfach zwischen verschiedenen Ausschnitten der Daten zu navigieren und eine schnellere und reaktionsfähigere Erfahrung zu erleben.\cite{noauthor_map_nodate}
 Datashader ist ein Grafik-Pipeline-System zur schnellen und flexiblen Erstellung aussagekräftiger Darstellungen grosser Datensätze. Datashader unterteilt die Erstellung von Bildern in eine Reihe expliziter Schritte, die es ermöglichen, Berechnungen an Zwischendarstellungen vorzunehmen.\cite{wong_abstract_2013}
 \\
 \\
@@ -222,10 +224,10 @@ Wenn der Benutzer nun auf ein Genre klickt oder auf ein Genre zoomt wird die Anz
 Mit einem Tooltip kann der Benutzer nun die Details zum einzelnen Film einsehen.
 
 \begin{figure}[!h]
-    \centering
-    \includegraphics[width=0.2\textwidth]{img/tooltip.png}
-    \caption{\label{fig: LE2 Schneiderman Zoom} Tooltip: Details on demand}
-    \end{figure}
+\centering
+\includegraphics[width=0.2\textwidth]{img/tooltip.png}
+\caption{\label{fig: LE2 Schneiderman Zoom} Tooltip: Details on demand}
+\end{figure}
 Diese Interaktionen können mit Hilfe Plotly.js Chart Events realisiert werden. Wenn ein solches Event getriggert wird kann die Funktion \texttt{Plotly.restyle} aufgerufen werden. Diese Funktion ermöglicht es die Daten eines Charts zu ändern.\\
 
 
@@ -264,9 +266,153 @@ Mit einem Mulit-Select können die Genres ausgewählt werden. Es wird eine zusä
 Zudem kann mit einem Datepicker ein Zeitraum ausgewählt werden. Dieser wird dann in allen anderen Ansichten verwendet.\\
 
 \newpage
+\section{LE3: HCI Grundlagen}
+Das Ziel von HCI ist es, die Interaktion zwischen Menschen und Computern zu untersuchen und zu verbessern.
+In disem Abschnitt werden die Grundlagen von HCI untersucht und die wichtigsten Prinzipien vorgestellt.
 
+\subsection{Fitts's Law}
+\noindent
+Fitts' Gesetz besagt, dass die Zeit, die benötigt wird, um einen Zeiger zu einem Zielbereich zu bewegen,
+ eine Funktion aus Entfernung und Zielgrösse ist. Es wird in der Benutzererfahrung und -schnittstellengestaltung
+  verwendet, um Schaltflächen gross zu machen und den Abstand zwischen der Aufgabe und der zugehörigen 
+  Schaltfläche kurz zu halten. Es ist wichtig zu beachten, dass dieses Gesetz auf schnelle, 
+  zeigende Bewegungen anwendbar ist. Durch die Anwendung dieses Gesetzes haben standardisierte 
+  Benutzeroberflächenelemente die Zeit reduziert und die Produktivität gesteigert.\cite{noauthor_what_nodate}
+\\
+%insert equation here
+\begin{equation}
+ID = \log_2\left(\frac{2D}{W}\right)
+\end{equation}
+%erklärung
+\begin{center}
+ID = Index of Difficulty\\
+D = Distance to target\\
+W = Width of target\\    
+\end{center}
+
+\noindent
+Wenn dieses Gesetz auf Figure \ref{fig: LE2 Schneiderman Overview} anwenden. Sollte man mit einer möglichhst kleinen Bewegung die gewünschte Genre auswählen können.
+In Plotly kann dies mit dem \texttt{hovermode} umsetzen. So kann zum Beispiel das Genre IMAX sehr schnell ausgewählt werden und muss nicht mit einem präzisen Klick das Genre auswählen.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/fitts_hover.png}
+\caption{\label{fig: LE3 HCI Fitts Law} Fitts's Law hover mode}
+\end{figure}
+
+\subsection{Weber's Law}
+Webers Gesetz beschreibt die menschliche Fähigkeit,
+kleine Unterschiede in Stimuli wie Formen, 
+Farben und Gewichten zu erkennen. Es besagt, 
+dass das Verhältnis des kleinsten Unterschieds \texttt{$\Delta$I}
+den eine Person wahrnehmen kann, zum Anfangsreizwert \texttt{I} für eine bestimmte Messung konstant \texttt{K} ist. 
+Die Weber-Fraktion repräsentiert die Steigung dieses Verhältnisses,
+ und die Grösse des gerade wahrnehmbaren Unterschieds ist ein konstanter 
+ Anteil des ursprünglichen Stimuluswerts. Dieses Gesetz hat Auswirkungen für Grafikdesigner,
+  die es nutzen können, um effektivere Benutzeroberflächen zu entwerfen, 
+  indem sie sicherstellen, dass es ausreichende Unterscheidung zwischen ähnlichen Stimuli
+   wie Linienstärken oder Farbschattierungen gibt.\cite{noauthor_virtual_nodate}
+
+%inset equation here
+\begin{equation}
+    \frac{\Delta I}{I} = K
+\end{equation}
+
+\begin{center}
+    $\Delta$I = Delta to Initial Stimulus Value\\
+    I = Initial Stimulus Value\\
+    K = Weber Fraction\\
+\end{center}
+\noindent
+
+
+\newpage
+
+\subsection{5 Dimensionen der Interaktionsgestaltung}
+Die fünf Dimensionen der Interaktionsgestaltung wurden von Gillian Crampton Smith, 
+Professor am Royal College of Art in London, und Kevin Silver, einem erfahrenen Interaktionsdesigner,
+definiert. Die Dimensionen (1D) Worte, (2D) visuelle Darstellungen, 
+(3D) physische Objekte/Räume, (4D) Zeit und (5D) Verhalten werden von Interaktionsdesignern genutzt, 
+um die Interaktion zwischen Nutzern und einem Produkt oder einer Dienstleistung in ganzheitlicher 
+Weise zu betrachten.\cite{noauthor_what_nodate-1}
+
+\noindent
+\\
+\textbf{1D: Worte}\\
+Die Verwendung von passenden und leicht verständlichen Wörtern ist im Interaction Design wichtig, um eine reibungslose Interaktion zwischen dem Benutzer und dem Produkt oder der Dienstleistung zu gewährleisten.
+\\
+\textbf{2D: Visuelle Darstellungen}\\
+Visuelle Elemente wie Bilder, Iconografie und grafische Darstellungen tragen zur Kommunikation zwischen Benutzer und Produkt bei und können genauso wirkungsvoll wie Text sein.
+\\
+\textbf{3D: Physische Objekte/Räume}\\
+Das Medium, über das der Benutzer mit dem Produkt interagiert, wie zum Beispiel ein Mobil- oder Tablet-Bildschirm oder eine Computermaus, muss bei der Gestaltung für eine einfache Benutzerfreundlichkeit berücksichtigt werden.
+\\
+\textbf{4D: Zeit}\\
+Elemente, die sich im Laufe der Zeit verändern, wie Animationen und Videos, können Benutzer einbinden und ihr Erlebnis mit dem Produkt verbessern. Fortschrittsbalken-Animationen können auch hilfreich sein, um den Fortschritt eines bestimmten Prozesses oder einer Operation anzuzeigen.
+\\
+\textbf{5D: Verhalten}\\
+Das tatsächliche Verhalten der Anwendung, einschliesslich Aktionen, Reaktionen und Präsentationen, muss so gestaltet werden, dass es für Benutzer leicht anpassbar und verständlich ist. Zum Beispiel das Anzeigen einer Erfolgsmeldung mit einer Zusammenfassung, wenn eine Aufgabe abgeschlossen 
+ist oder das Einbinden von Wischaktionen.\cite{devazya_interaction_2022}
+
+\subsection{Implementation mit Dash}
+Rückblickend auf mein Dashboard aus LE2, kann ich sagen, dass ich die meisten dieser Prinzipien umgesetzt habe. Aber es gibt noch einige Punkte, welche ich verbessern könnte.\\
+Zum Beispiel bracht es mehr Zeit das Jahr auszuwählen in einem "Date Picker" als in einem Range Slider.\\
+Zudem habe ich die verschiedenen Genres mit Hilfe von Farben mehr differenziert und den Hovermode auf der X-Achse aktiviert\\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\textwidth]{img/dashboard_updated.png}
+\includegraphics[height=0.25\textwidth]{img/dashboard_mobile.png}
+\caption{\label{fig: LE3 Dashboard mit Verbesserungen / Mobile} Dashboard mit Verbesserungen / Mobile}
+\end{figure}
+\noindent
+Zudem habe ich die dritte Dimension der Interaktionsgestaltung untersucht. Wie sieht das Dashboard auf einem Smartphone aus?\\
+Können die verschiedenen Elemente noch gut ausgewählt werden?\\
+Kann man die Daten gleich gut interpretieren?\\
+
+\newpage
 
 \printbibliography
 
+\newpage
 
+\section{Anhang}
+% add all figures again here in full size
+\centering
+\subsection{Figure 1}
+\includegraphics[width=1\textwidth]{img/random_dots.png}
+
+\subsection{Figure 2}
+\includegraphics[width=0.7\textwidth]{img/svg_quality.png}
+\includegraphics[width=0.7\textwidth]{img/webgl_quality.png}
+
+\subsection{Figure 3}
+\includegraphics[width=1\textwidth]{img/newyork_plotly.png}
+\includegraphics[width=1\textwidth]{img/newyork_datashader.png}
+
+\subsection{Figure 4}
+\includegraphics[width=0.6\textwidth]{img/js_heap_plotly.png}
+\includegraphics[width=0.6\textwidth]{img/js_heap_datashader.png}
+
+\subsection{Figure 5}
+\includegraphics[width=1\textwidth]{img/movies_genre.png}
+
+\subsection{Figure 6}
+\includegraphics[width=1\textwidth]{img/movies-scifi.png}
+
+\subsection{Figure 7}
+\includegraphics[width=0.4\textwidth]{img/tooltip.png}
+
+\subsection{Figure 8}
+\includegraphics[width=1\textwidth]{img/brushing.png}
+
+\subsection{Figure 9}
+\includegraphics[width=1\textwidth]{img/dashboard_plotly.png}
+
+\subsection{Figure 10}
+\includegraphics[width=1\textwidth]{img/fitts_hover.png}
+
+\subsection{Figure 11}
+\includegraphics[width=1\textwidth]{img/dashboard_updated.png}\\
+\includegraphics[width=0.4\textwidth]{img/dashboard_mobile.png}
+  
 \end{document}

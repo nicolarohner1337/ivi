@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  13 APR 2023 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.20)  7 MAY 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,13 +447,18 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \rotheadsize=\dimen164
 \c@nlinenum=\count403
 \TeXr@lab=\toks21
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count404
+\c@@ppsavesec=\count405
+\c@@ppsaveapp=\count406
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count404
-\@quotereset=\count405
+\@quotelevel=\count407
+\@quotereset=\count408
 (./report.aux
 
 LaTeX Warning: Label `tab: LE1 Performance' multiply defined.
@@ -464,24 +469,24 @@ LaTeX Warning: Label `fig: LE2 Schneiderman Zoom' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -522,16 +527,16 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count406
+\scratchcounter=\count409
 \scratchdimen=\dimen165
 \scratchbox=\box53
-\nofMPsegments=\count407
-\nofMParguments=\count408
+\nofMPsegments=\count410
+\nofMParguments=\count411
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count409
+\MPscratchCnt=\count412
 \MPscratchDim=\dimen166
-\MPnumerator=\count410
-\makeMPintoPDFobject=\count411
+\MPnumerator=\count413
+\makeMPintoPDFobject=\count414
 \everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -539,7 +544,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 19.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -547,11 +552,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count412
+\c@section@level=\count415
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
  (./report.out) (./report.out)
 \@outlinefile=\write4
 \openout4 = `report.out'.
@@ -569,22 +574,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (./report.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 28.
+(Font)              <9> on input line 30.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--34
+Underfull \hbox (badness 10000) in paragraph at lines 28--36
 
  []
 
@@ -595,148 +600,246 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--34
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 69--78
+Underfull \hbox (badness 10000) in paragraph at lines 71--80
 
  []
 
-<img/random_dots.png, id=70, 1322.9425pt x 873.2625pt>
+<img/random_dots.png, id=155, 1322.9425pt x 873.2625pt>
 File: img/random_dots.png Graphic file (type png)
 <use img/random_dots.png>
-Package pdftex.def Info: img/random_dots.png  used on input line 82.
+Package pdftex.def Info: img/random_dots.png  used on input line 84.
 (pdftex.def)             Requested size: 100.09526pt x 66.06482pt.
-<img/svg_quality.png, id=74, 892.33376pt x 399.4925pt>
+<img/svg_quality.png, id=159, 892.33376pt x 399.4925pt>
 File: img/svg_quality.png Graphic file (type png)
 <use img/svg_quality.png>
 Package pdftex.def Info: img/svg_quality.png  used on input line 114.
 (pdftex.def)             Requested size: 100.09526pt x 44.8099pt.
-<img/webgl_quality.png, id=75, 913.4125pt x 410.53375pt>
+<img/webgl_quality.png, id=160, 913.4125pt x 410.53375pt>
 File: img/webgl_quality.png Graphic file (type png)
 <use img/webgl_quality.png>
 Package pdftex.def Info: img/webgl_quality.png  used on input line 115.
 (pdftex.def)             Requested size: 100.09526pt x 44.98344pt.
 [2 <./img/random_dots.png> <./img/svg_quality.png> <./img/webgl_quality.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--130
+Underfull \hbox (badness 10000) in paragraph at lines 123--132
 
  []
 
-<img/newyork_plotly.png, id=94, 1911.14pt x 873.2625pt>
+<img/newyork_plotly.png, id=180, 1911.14pt x 873.2625pt>
 File: img/newyork_plotly.png Graphic file (type png)
 <use img/newyork_plotly.png>
-Package pdftex.def Info: img/newyork_plotly.png  used on input line 150.
+Package pdftex.def Info: img/newyork_plotly.png  used on input line 152.
 (pdftex.def)             Requested size: 200.19054pt x 91.46208pt.
-<img/newyork_datashader.png, id=95, 1911.14pt x 816.04875pt>
+<img/newyork_datashader.png, id=181, 1911.14pt x 816.04875pt>
 File: img/newyork_datashader.png Graphic file (type png)
 <use img/newyork_datashader.png>
-Package pdftex.def Info: img/newyork_datashader.png  used on input line 151.
+Package pdftex.def Info: img/newyork_datashader.png  used on input line 153.
 (pdftex.def)             Requested size: 210.9551pt x 90.08345pt.
-<img/js_heap_plotly.png, id=97, 252.945pt x 201.75375pt>
+<img/js_heap_plotly.png, id=183, 252.945pt x 201.75375pt>
 File: img/js_heap_plotly.png Graphic file (type png)
 <use img/js_heap_plotly.png>
-Package pdftex.def Info: img/js_heap_plotly.png  used on input line 182.
+Package pdftex.def Info: img/js_heap_plotly.png  used on input line 184.
 (pdftex.def)             Requested size: 100.09526pt x 79.83807pt.
-<img/js_heap_datashader.png, id=98, 256.96pt x 258.9675pt>
+<img/js_heap_datashader.png, id=184, 256.96pt x 258.9675pt>
 File: img/js_heap_datashader.png Graphic file (type png)
 <use img/js_heap_datashader.png>
-Package pdftex.def Info: img/js_heap_datashader.png  used on input line 183.
+Package pdftex.def Info: img/js_heap_datashader.png  used on input line 185.
 (pdftex.def)             Requested size: 78.46481pt x 79.07884pt.
 [3 <./img/newyork_plotly.png> <./img/newyork_datashader.png> <./img/js_heap_plotly.png> <./img/js_heap_datashader.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--206
 
  []
 
-<img/movies_genre.png, id=119, 908.39375pt x 451.6875pt>
+<img/movies_genre.png, id=205, 908.39375pt x 451.6875pt>
 File: img/movies_genre.png Graphic file (type png)
 <use img/movies_genre.png>
-Package pdftex.def Info: img/movies_genre.png  used on input line 208.
+Package pdftex.def Info: img/movies_genre.png  used on input line 210.
 (pdftex.def)             Requested size: 200.19054pt x 99.53696pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-<img/movies-scifi.png, id=120, 908.39375pt x 451.6875pt>
+<img/movies-scifi.png, id=206, 908.39375pt x 451.6875pt>
 File: img/movies-scifi.png Graphic file (type png)
 <use img/movies-scifi.png>
-Package pdftex.def Info: img/movies-scifi.png  used on input line 217.
+Package pdftex.def Info: img/movies-scifi.png  used on input line 219.
 (pdftex.def)             Requested size: 200.19054pt x 99.53696pt.
-<img/tooltip.png, id=121, 164.615pt x 52.195pt>
+<img/tooltip.png, id=207, 164.615pt x 52.195pt>
 File: img/tooltip.png Graphic file (type png)
 <use img/tooltip.png>
-Package pdftex.def Info: img/tooltip.png  used on input line 226.
+Package pdftex.def Info: img/tooltip.png  used on input line 228.
 (pdftex.def)             Requested size: 100.09526pt x 31.73775pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
 [4 <./img/movies_genre.png> <./img/movies-scifi.png> <./img/tooltip.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-<img/brushing.png, id=135, 754.82pt x 375.4025pt>
+<img/brushing.png, id=221, 754.82pt x 375.4025pt>
 File: img/brushing.png Graphic file (type png)
 <use img/brushing.png>
-Package pdftex.def Info: img/brushing.png  used on input line 242.
+Package pdftex.def Info: img/brushing.png  used on input line 244.
 (pdftex.def)             Requested size: 200.19054pt x 99.56137pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-<img/dashboard_plotly.png, id=138, 1902.10625pt x 858.20625pt>
+<img/dashboard_plotly.png, id=224, 1902.10625pt x 858.20625pt>
 File: img/dashboard_plotly.png Graphic file (type png)
 <use img/dashboard_plotly.png>
-Package pdftex.def Info: img/dashboard_plotly.png  used on input line 259.
+Package pdftex.def Info: img/dashboard_plotly.png  used on input line 261.
 (pdftex.def)             Requested size: 200.19054pt x 90.31729pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
-[5 <./img/brushing.png> <./img/dashboard_plotly.png>] [6] (./report.aux)
+[5 <./img/brushing.png> <./img/dashboard_plotly.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 274--283
+
+ []
+
+<img/fitts_hover.png, id=239, 601.24625pt x 347.2975pt>
+File: img/fitts_hover.png Graphic file (type png)
+<use img/fitts_hover.png>
+Package pdftex.def Info: img/fitts_hover.png  used on input line 298.
+(pdftex.def)             Requested size: 200.19054pt x 115.6366pt.
+[6 <./img/fitts_hover.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 357--360
+
+ []
+
+<img/dashboard_updated.png, id=256, 1184.425pt x 862.22125pt>
+File: img/dashboard_updated.png Graphic file (type png)
+<use img/dashboard_updated.png>
+Package pdftex.def Info: img/dashboard_updated.png  used on input line 363.
+(pdftex.def)             Requested size: 150.14671pt x 109.29037pt.
+<img/dashboard_mobile.png, id=257, 351.3125pt x 766.865pt>
+File: img/dashboard_mobile.png Graphic file (type png)
+<use img/dashboard_mobile.png>
+Package pdftex.def Info: img/dashboard_mobile.png  used on input line 364.
+(pdftex.def)             Requested size: 57.31541pt x 125.12099pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
+
+ []
+
+[7 <./img/dashboard_updated.png> <./img/dashboard_mobile.png>] [8]
+File: img/random_dots.png Graphic file (type png)
+<use img/random_dots.png>
+Package pdftex.def Info: img/random_dots.png  used on input line 382.
+(pdftex.def)             Requested size: 500.484pt x 330.36414pt.
+File: img/svg_quality.png Graphic file (type png)
+<use img/svg_quality.png>
+Package pdftex.def Info: img/svg_quality.png  used on input line 385.
+(pdftex.def)             Requested size: 350.33727pt x 156.84381pt.
+File: img/webgl_quality.png Graphic file (type png)
+<use img/webgl_quality.png>
+Package pdftex.def Info: img/webgl_quality.png  used on input line 386.
+(pdftex.def)             Requested size: 350.33727pt x 157.45775pt.
+ [9]
+File: img/newyork_plotly.png Graphic file (type png)
+<use img/newyork_plotly.png>
+Package pdftex.def Info: img/newyork_plotly.png  used on input line 389.
+(pdftex.def)             Requested size: 500.484pt x 228.68185pt.
+File: img/newyork_datashader.png Graphic file (type png)
+<use img/newyork_datashader.png>
+Package pdftex.def Info: img/newyork_datashader.png  used on input line 390.
+(pdftex.def)             Requested size: 500.484pt x 213.69925pt.
+ [10]
+File: img/js_heap_plotly.png Graphic file (type png)
+<use img/js_heap_plotly.png>
+Package pdftex.def Info: img/js_heap_plotly.png  used on input line 393.
+(pdftex.def)             Requested size: 300.29344pt x 239.52348pt.
+File: img/js_heap_datashader.png Graphic file (type png)
+<use img/js_heap_datashader.png>
+Package pdftex.def Info: img/js_heap_datashader.png  used on input line 394.
+(pdftex.def)             Requested size: 300.29344pt x 302.66275pt.
+ [11]
+File: img/movies_genre.png Graphic file (type png)
+<use img/movies_genre.png>
+Package pdftex.def Info: img/movies_genre.png  used on input line 397.
+(pdftex.def)             Requested size: 500.484pt x 248.8631pt.
+ [12]
+File: img/movies-scifi.png Graphic file (type png)
+<use img/movies-scifi.png>
+Package pdftex.def Info: img/movies-scifi.png  used on input line 400.
+(pdftex.def)             Requested size: 500.484pt x 248.8631pt.
+File: img/tooltip.png Graphic file (type png)
+<use img/tooltip.png>
+Package pdftex.def Info: img/tooltip.png  used on input line 403.
+(pdftex.def)             Requested size: 200.19054pt x 63.4763pt.
+File: img/brushing.png Graphic file (type png)
+<use img/brushing.png>
+Package pdftex.def Info: img/brushing.png  used on input line 406.
+(pdftex.def)             Requested size: 500.484pt x 248.91205pt.
+ [13]
+File: img/dashboard_plotly.png Graphic file (type png)
+<use img/dashboard_plotly.png>
+Package pdftex.def Info: img/dashboard_plotly.png  used on input line 409.
+(pdftex.def)             Requested size: 500.484pt x 225.81287pt.
+File: img/fitts_hover.png Graphic file (type png)
+<use img/fitts_hover.png>
+Package pdftex.def Info: img/fitts_hover.png  used on input line 412.
+(pdftex.def)             Requested size: 500.484pt x 289.10474pt.
+ [14]
+File: img/dashboard_updated.png Graphic file (type png)
+<use img/dashboard_updated.png>
+Package pdftex.def Info: img/dashboard_updated.png  used on input line 415.
+(pdftex.def)             Requested size: 500.484pt x 364.32758pt.
+ [15]
+File: img/dashboard_mobile.png Graphic file (type png)
+<use img/dashboard_mobile.png>
+Package pdftex.def Info: img/dashboard_mobile.png  used on input line 416.
+(pdftex.def)             Requested size: 200.19054pt x 437.00058pt.
+ [16] [17] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 4A886C221BE0480E42BA86B7B5863830;1315.
+(rerunfilecheck)             Checksum: F479B807D8E6863A0EB58292C5910593;3335.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18762 strings out of 478268
- 335885 string characters out of 5846346
- 1052734 words of memory out of 5000000
- 36738 multiletter control sequences out of 15000+600000
+ 18963 strings out of 478268
+ 339836 string characters out of 5846346
+ 1059895 words of memory out of 5000000
+ 36897 multiletter control sequences out of 15000+600000
  475716 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,68p,787b,1787s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (6 pages, 3202950 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on report.pdf (17 pages, 3339237 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

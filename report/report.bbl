@@ -223,6 +223,46 @@
       \verb https://deck.gl/
       \endverb
     \endentry
+    \entry{devazya_interaction_2022}{online}{}
+      \name{author}{1}{}{%
+        {{hash=445fa380f27cfffb84bbdaf1b6e88c78}{%
+           family={Devazya},
+           familyi={D\bibinitperiod},
+           given={Akshay},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \strng{fullhash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \strng{bibnamehash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \strng{authorbibnamehash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \strng{authornamehash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \strng{authorfullhash}{445fa380f27cfffb84bbdaf1b6e88c78}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Interaction Design is the creation of a dialogue between a person and a product, system, or service. This dialogue is both physical and…}
+      \field{day}{10}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Interaction design and its 5 dimensions}
+      \field{titleaddon}{Medium}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/MKFRRY3M/interaction-design-and-its-dimensions-39ca7e1d09f0.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://uxdesign.cc/interaction-design-and-its-dimensions-39ca7e1d09f0
+      \endverb
+      \verb{url}
+      \verb https://uxdesign.cc/interaction-design-and-its-dimensions-39ca7e1d09f0
+      \endverb
+    \endentry
     \entry{hampdatavisualization_schneidermans_2016}{online}{}
       \name{author}{1}{}{%
         {{hash=176582a643f98d5409de9fdf9f0b0549}{%
@@ -432,6 +472,69 @@
       \verb Eingereichte Version:/Users/nicolarohner/Zotero/storage/8GB54629/Shneiderman - 1996 - The eyes have it a task by data type taxonomy for.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/nicolarohner/Zotero/storage/38EBFX3W/stamp.html:text/html
       \endverb
       \keyw{Art,Data mining,Data visualization,Displays,Eyes,Information filtering,Information filters,Multimedia databases,Taxonomy,Visual databases}
+    \endentry
+    \entry{noauthor_virtual_nodate}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{title}{Virtual lab}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Virtual lab:/Users/nicolarohner/Zotero/storage/9T8QX67V/webers_law.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://hci-iitg.vlabs.ac.in/webers_law.html
+      \endverb
+      \verb{url}
+      \verb https://hci-iitg.vlabs.ac.in/webers_law.html
+      \endverb
+    \endentry
+    \entry{noauthor_what_nodate}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What is Fitts’ Law? Fitts’ law states that the amount of time required for a person to move a pointer (e.g., mouse cursor) to a target area is a function of the distance to the tar...}
+      \field{langid}{english}
+      \field{title}{What is Fitts’ Law?}
+      \field{titleaddon}{The Interaction Design Foundation}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/4WBR3UNL/fitts-law.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/fitts-law
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/fitts-law
+      \endverb
+    \endentry
+    \entry{noauthor_what_nodate-1}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What is Interaction Design? Interaction Design ({IxD}) is the design of interactive products and services in which a designer’s focus goes beyond the item in development to include the way u...}
+      \field{langid}{english}
+      \field{title}{What is Interaction Design?}
+      \field{titleaddon}{The Interaction Design Foundation}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/nicolarohner/Zotero/storage/Z6Q6AA66/interaction-design.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/interaction-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/interaction-design
+      \endverb
     \endentry
     \entry{wills_linked_2008}{incollection}{}
       \name{author}{1}{}{%

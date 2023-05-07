@@ -8,3 +8,20 @@
 \contentsline {subsection}{\numberline {2.3}Brushing}{5}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Filtering}{5}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Implementation mit Dash}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}LE3: HCI Grundlagen}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Fitts's Law}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Weber's Law}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}5 Dimensionen der Interaktionsgestaltung}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Implementation mit Dash}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Anhang}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Figure 1}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Figure 2}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Figure 3}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Figure 4}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Figure 5}{13}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Figure 6}{13}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Figure 7}{13}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Figure 8}{14}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Figure 9}{14}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Figure 10}{15}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Figure 11}{16}{subsection.4.11}%

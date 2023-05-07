@@ -1,0 +1,83 @@
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.2\textwidth]{img/random_dots.png}
+
+
+\caption{\label{fig: LE1 Random Dots plot}Random dots}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.2\textwidth]{img/svg_quality.png}
+\includegraphics[width=0.2\textwidth]{img/webgl_quality.png}
+\setlength{\belowcaptionskip}{-10pt}
+\caption{\label{fig: LE1 Qualität Unterschiede} Qualität Unterschiede links SVG, rechts WebGL}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/newyork_plotly.png}
+\includegraphics[height=0.18\textwidth]{img/newyork_datashader.png}
+\caption{\label{fig: LE1 Plotly vs Datashader} Taxifahrten in Newyork (Plotly links, Datashader Tiles rechts)}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.2\textwidth]{img/js_heap_plotly.png}
+\includegraphics[height=0.158\textwidth]{img/js_heap_datashader.png}
+\caption{\label{fig: LE1 Datashader Memory} Memory Heap Plotly vs. Datashader Tile}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/movies_genre.png}
+\caption{\label{fig: LE2 Schneiderman Overview} Genre Übersicht}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/movies-scifi.png}
+\caption{\label{fig: LE2 Schneiderman Zoom} Filtering/Zooming: Anzahl Filme pro Jahr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{img/tooltip.png}
+    \caption{\label{fig: LE2 Schneiderman Zoom} Tooltip: Details on demand}
+    \end{figure}
+Diese Interaktionen können mit Hilfe Plotly.js Chart Events realisiert werden. Wenn ein solches Event getriggert wird kann die Funktion \texttt{Plotly.restyle} aufgerufen werden. Diese Funktion ermöglicht es die Daten eines Charts zu ändern.\\
+
+
+\newpage
+\subsection{Verknüpfte Ansichten}
+Das Paradigma der verknüpften Ansichten ist eine Methode, die mehrere einfache Ansichten von Daten verwendet. Wenn Sie mit einer Ansicht interagieren, ändert sich die Anzeige der Daten in allen verknüpften Ansichten. Ein einfaches Beispiel wäre, dass die Auswahl eines Datums in einer Ansicht die Daten in allen anderen Ansichten auch ändert.
+Kurz gesagt wenn sich eine Ansicht ändert, ändern sich alle anderen Ansichten auch.\cite{wills_linked_2008} \\
+%TODO: add image
+\subsection{Brushing}
+Brushing ist eine Methode, die es ermöglicht, Daten in einer Ansicht zu selektieren und diese dann in anderen Ansichten zu verwenden. Ein Beispiel wäre, dass Sie eine Ansicht mit einem Scatterplot haben, in der Sie einen Bereich selektieren. Diese Selektion wird dann in einer anderen Ansicht mit einem Histogramm verwendet.\cite{becker_brushing_1987} \\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/brushing.png}
+\caption{\label{fig: LE2 Brushing} Brushing}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/dashboard_plotly.png}
+\caption{\label{fig: LE2 Dashboard} Dashboard}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/random_dots.png}
+\caption{\label{fig: LE1 Random Dots plot}Random dots}
+\end{figure}

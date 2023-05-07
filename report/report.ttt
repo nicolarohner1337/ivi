@@ -1,0 +1,66 @@
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{CPU} & \textbf{GPU} \\
+\hline
+\makecell[l]{Generalistische Komponente - Verarbeitet die \\ wichtigsten Verarbeitungsfunktionen eines Computers}& \makecell[l]{Spezialisierte Komponente - Verarbeitet \\Grafik- und Video-Rendering} \\
+\hline
+Kernanzahl- 2-64 (die meisten CPUs)&Kernanzahl- Tausende \\
+\hline
+Führt Prozesse seriell aus & Führt Prozesse parallel aus\\
+\hline
+\makecell[l]{Besser bei der Verarbeitung\\ einer großen Aufgabe zur gleichen Zeit} & \makecell[l]{Besser bei der Verarbeitung \\mehrerer kleinerer Aufgaben zur gleichen Zeit} \\
+\hline
+\end{tabular}
+\caption{\label{tab: LE1 CPU vs GPU}CPU vs GPU}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Kategorie} & \textbf{SVG} & \textbf{WebGL} & \textbf{\%$\Delta$} \\
+\hline
+Scripting & 3778ms & 651ms & -580\% \\
+\hline
+Rendering & 2026ms & 14ms & -1447\% \\
+\hline
+Painting & 197ms & 2ms & -985\% \\
+\hline
+\end{tabular}
+\caption{\label{tab: LE1 Performance}Performance Unterschiede}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Date/Time} & \textbf{The date and time of the Uber pickup} \\
+\hline
+\textbf{Lat} & \textbf{The latitude of the Uber pickup} \\
+\hline
+\textbf{Lon} & \textbf{The longitude of the Uber pickup} \\
+\hline
+\end{tabular}
+\caption{\label{tab: LE1 Newyork Taxi Data} Newyork Uber Data}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    \textbf{Kategorie} & \textbf{Plotly} & \textbf{Datashader Tile} & \textbf{\%$\Delta$} \\
+    \hline
+    Scripting & 1241ms & 492ms & -39\% \\
+    \hline
+    Rendering & 6ms & 6ms & $\pm$0\% \\
+    \hline
+    Painting & 12ms & 12ms & $\pm$0\% \\
+    \hline
+    \end{tabular}
+    \caption{\label{tab: LE1 Performance}Performance Unterschiede}
+\end{table}
