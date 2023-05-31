@@ -9,6 +9,7 @@
 \usepackage{biblatex}
 \usepackage{makecell}
 \usepackage{appendix}
+\usepackage{amsmath}
 
 \addbibresource{IVI.bib}
 
@@ -123,7 +124,8 @@ Auch die Tradeoffs zwischen Performance und Qualität sind deutlich zu erkennen.
 Tiling kann die Performance von interaktiven Visualisierungen von grossen Datenmengen verbessern, 
 indem es die Daten in kleinere Kacheln aufteilt und nur die benötigten Teile lädt und darstellt. 
 Dadurch wird die Rechenleistung effektiver genutzt und die Belastung auf den Computer verringert. 
-Die interaktive Natur von Tiling ermöglicht es den Benutzern, schnell und einfach zwischen verschiedenen Ausschnitten der Daten zu navigieren und eine schnellere und reaktionsfähigere Erfahrung zu erleben.\cite{noauthor_map_nodate}
+Die interaktive Natur von Tiling ermöglicht es den Benutzern, schnell und einfach zwischen verschiedenen 
+Ausschnitten der Daten zu navigieren und eine schnellere und reaktionsfähigere Erfahrung zu erleben.\cite{noauthor_map_nodate}
 Datashader ist ein Grafik-Pipeline-System zur schnellen und flexiblen Erstellung aussagekräftiger Darstellungen grosser Datensätze. Datashader unterteilt die Erstellung von Bildern in eine Reihe expliziter Schritte, die es ermöglichen, Berechnungen an Zwischendarstellungen vorzunehmen.\cite{wong_abstract_2013}
 \\
 \\
@@ -235,7 +237,7 @@ Diese Interaktionen können mit Hilfe Plotly.js Chart Events realisiert werden. 
 \subsection{Verknüpfte Ansichten}
 Das Paradigma der verknüpften Ansichten ist eine Methode, die mehrere einfache Ansichten von Daten verwendet. Wenn Sie mit einer Ansicht interagieren, ändert sich die Anzeige der Daten in allen verknüpften Ansichten. Ein einfaches Beispiel wäre, dass die Auswahl eines Datums in einer Ansicht die Daten in allen anderen Ansichten auch ändert.
 Kurz gesagt wenn sich eine Ansicht ändert, ändern sich alle anderen Ansichten auch.\cite{wills_linked_2008} \\
-%TODO: add image
+
 \subsection{Brushing}
 Brushing ist eine Methode, die es ermöglicht, Daten in einer Ansicht zu selektieren und diese dann in anderen Ansichten zu verwenden. Ein Beispiel wäre, dass Sie eine Ansicht mit einem Scatterplot haben, in der Sie einen Bereich selektieren. Diese Selektion wird dann in einer anderen Ansicht mit einem Histogramm verwendet.\cite{becker_brushing_1987} \\
 
@@ -370,7 +372,125 @@ Können die verschiedenen Elemente noch gut ausgewählt werden?\\
 Kann man die Daten gleich gut interpretieren?\\
 
 \newpage
+\section{LE4: Evaluierung}
 
+Im Rahmen von LE4 werde ich ein kleine Nutzerstudie zu meinem erstellten Dashboard durchführen, um die Usability und User Experience zu evaluieren. 
+Dabei werde ich die im Kurs "GDV" erworbenen Kenntnisse nutzen.
+
+\subsection{Usability Test}
+Der Usability Test ist eine Methode, um die Benutzerfreundlichkeit eines Produkts zu bewerten, indem es von echten Benutzern getestet wird.
+Das Test Set-Up ist wie folgt: Es werden 3 Testpersonen ausgewählt, welche das Dashboard testen sollen.
+Die Testpersonen werden gebeten, die Aufgaben zu lösen und dabei wird die Zeit gemessen und ob ihre Antwort korrekt ist\\
+
+\noindent
+Die Personen sind mit der Benutzung von Computer vertraut, haben aber keine signifikanten Erfahrungen mit Dashboards.
+Alle Personen sind im Alter von 20-30 Jahren und verstehen Englisch.\\
+\\
+Aufgaben:
+\begin{enumerate}
+    \item Wähle das Genre IMAX vom Jahr 1950 bis 2015.
+    \item Vergleiche Genre Action und Adventure. Welches Genre hat mehr Filme im Jahr 1975?
+    \item Wahr oder Falsch? Es gibt mehr Filme im Genre Action als im Genre Adventure von 1975 bis 200.
+    \item Welches Genre hat am meisten Filme von 2000 bis 2015?
+    \item Welches Genres hat am meisten Filme über die ganze Zeit?
+\end{enumerate}
+
+Correct Answers will be marked with a \texttt{+} and wrong answers with a \texttt{-}.\\
+
+\begin{equation}
+    Precission = \frac{Correct Answers}{Total Answers}\\
+\end{equation}
+
+
+\subsubsection{Ergebnisse}
+Zeitformat: MM:SS\\
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    \textbf{Aufgabe} & \textbf{Testperson 1} & \textbf{Testperson 2} & \textbf{Testperson 3} & \textbf{Durchschnitt}\\
+    \hline
+    1 & 00:23 + & 00:25 + & 00:21 + & 00:23\\
+    \hline
+    2 & 00:27 + & 00:29 + & 00:25 + & 00:27\\
+    \hline
+    3 & 00:42 + & 00:57 -& 00:38 + & 00:46\\
+    \hline
+    4 & nAn -& nAn -& nAn -& nAn\\
+    \hline
+    5 &nAn -& nAn -& nAn -& nAn\\
+    \hline
+    Total & 01:32 (60\%) & 01:51 (40\%)& 01:24 (60\%) & 01:36\\
+    \hline
+    \end{tabular}
+    \caption{\label{tab: LE4 Usability Test}Usability Test Ergebnisse}
+\end{table}
+
+\noindent
+Zu beobachten waren sehr gute Ergebnisse für Aufgabe 1 und 2. Bei Aufgabe 3 und 4 benötigen die Testpersonen etwas länger und waren mit ihren Antworten nicht immer korrekt.
+Bei Aufgabe 5 hatten alle Testpersonen lange und konnten die Aufgabe nicht lösen.\\
+\noindent
+Wichtigste Erkentnisse aus qualitativem Feedback:
+\begin{itemize}
+    \item Die Bar Plot sollten kombiniert werden. Die Testpersonen mussten mit Scrollen die Genres vergleichen.
+    \item Es fehlt eine Übersicht pro Genres die totale Anzahl für den ausgewählten Zeitraum darstellt.
+    \item Wenn man alle Genres auswählen möchte dauert es sehr lange. Es sollte eine Möglichkeit geben alle Genres auszuwählen.
+\end{itemize}
+\newpage
+
+\subsection{Dashboard Redesign}
+
+Die oben genannte Punkte wurden in einem Redesign des Dashboards umgesetzt.\\
+Die Bar Plots wurden kombiniert und ein Total vom ausgewählten Zeitraum wurde hinzugefügt.\\
+Zudem wurde ein Preset hinzugefügt, welches alle Genres auswählt.\\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{img/dashboard_redesign.png}
+\caption{\label{fig: LE4 Dashboard Redesign} Dashboard Redesign}
+\end{figure}
+
+\subsubsection{Usability Test nach Redesign}
+Mit den selben Testpersonen wurde ein Usability Test nach dem Redesign durchgeführt.\\
+Zu erwähnen ist, dass die Testpersonen bereits mit dem Dashboard vertraut waren und somit einen Lerneffekt hatten.\\
+Das heisst sie kennen bereits die Grundmechanismen und können das Dashboard schneller bedienen.\\
+
+
+
+\subsubsection{Ergebnisse nach Redesign}
+Zeitformat: MM:SS\\
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \textbf{Aufgabe} & \textbf{Testperson 1} & \textbf{Testperson 2} & \textbf{Testperson 3} & \textbf{Durchschnitt} & \textbf{Delta nach Redesign}\\
+    \hline
+    1 & 00:16 + & 00:19 + & 00:21 + & 00:19 & -00:04\\
+    \hline
+    2 & 00:09 + & 00:15 + & 00:08 + & 00:11 & -00:16\\
+    \hline
+    3 & 00:34 + & 00:37 +& 00:31 + & 00:34 & -00:12\\
+    \hline
+    4 & 00:18 +& 00:24 +& 00:15 +& 00:19 & nAn\\
+    \hline
+    5 &00:06 +& 00:10 +& 00:05 +& 00:07 & nAn\\
+    \hline
+    Total & 01:23 (100\%) & 01:45 (100\%)& 01:20 (100\%)& 01:30 & -00:06\\
+    \hline
+    \end{tabular}
+    \caption{\label{tab: LE4 Usability Test}Usability Test Ergebnisse}
+\end{table}
+Zu beobachten ist eine signifikante Verbesserung der Zeit für die Aufgaben 1-3.\\
+Die Aufgaben 4 und 5 konnten nun gelöst werden. Aber die Zeit kann nicht verglichen werden, da die Aufgaben vorher nicht gelöst werden konnten.\\
+Die Gesamtzeit konnte um 6 Sekunden verbessert werden. Jedoch ist auch diese Zeit schwiriger zu interpretieren, da 2 von 5 Aufgaben nicht gelöst werden konnten im ersten Durchlauf.\\
+Gesamthaft konnte die Precission von 53\% auf 100\% verbessert werden.\\
+\\
+Bei den qualitativen Feedbacks wurde erwähnt, dass die Testpersonen das Redesign besser finden.\\
+Auch die Option alle Genres auszuwählen wurde positiv aufgenommen.\\
+Der zusätzliche Total Wert wurde als sehr hilfreich empfunden wenn man Zahlen über die Zeit vergleichen möchte.\\
+Das Kombinieren der Genres Graphen wurde auch als angenehm empfunden. Da mann weniger scrollen muss um die Daten zu vergleichen.\\
+
+\newpage
 \printbibliography
 
 \newpage
@@ -414,5 +534,8 @@ Kann man die Daten gleich gut interpretieren?\\
 \subsection{Figure 11}
 \includegraphics[width=1\textwidth]{img/dashboard_updated.png}\\
 \includegraphics[width=0.4\textwidth]{img/dashboard_mobile.png}
+
+\subsection{Figure 12}
+\includegraphics[width=1\textwidth]{img/dashboard_redesign.png}
   
 \end{document}

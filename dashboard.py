@@ -1,7 +1,7 @@
 import dash
 from dash import dcc
 from dash import html
-import plotly.graph_objects as go
+import plotly.express as px
 import dash_mantine_components as dmc
 import pandas as pd
 import numpy as np
@@ -27,9 +27,9 @@ df = df.dropna(subset=['genres'])
 #represent each movie for each genre
 df = df.explode('genres')
 
-genre_colors = {}
-for genre in df['genres'].unique():
-    genre_colors[genre] = 'rgb({}, {}, {})'.format(*np.random.randint(0, 255, 3))
+genres = [{'label': genre, 'value': genre} for genre in df['genres'].unique()]
+#insert All at the beginning
+genres.insert(0, {'label': 'All', 'value': 'All'})
 
 # Definiere das Layout
 app.layout = html.Div(children=[
@@ -38,7 +38,7 @@ app.layout = html.Div(children=[
         html.Label('Genres:'),
         dcc.Dropdown(
             id='genre-dropdown',
-            options=[{'label': genre, 'value': genre} for genre in df['genres'].unique()],
+            options=genres,
             value=['Action'],  # Aktualisiere den Wert zu einer Liste von Genres
             multi=True  # Aktiviere Mehrfachauswahl
         ),
@@ -54,16 +54,19 @@ app.layout = html.Div(children=[
                 {"value": df['year'].max().year, "label": str(df['year'].max().year)},
             ],
             mb=35,
-        ),
-        dmc.Text(id="range-slider-output"),
-    ], style={'width': '48%', 'display': 'inline-block'}),
+        )
+    ], style={'width': '100%', 'display': 'block'}),
+    html.Div(children=[
+        dcc.Graph(id='bar-chart',style={'width': '48%', 'display': 'inline-block'}),
+        dcc.Graph(id='bar-chart2',style={'width': '48%', 'display': 'inline-block'}),
+    ] ),
     # Erstelle einen Container für die Plots
     html.Div(id='plot-container', children=[]),
 ])
 
 # Definiere die Callback-Funktion für die Plots
 @app.callback(
-    dash.dependencies.Output('plot-container', 'children'),  # Verwende einen Container für die Plots
+    dash.dependencies.Output('bar-chart', 'figure'),
     [dash.dependencies.Input('genre-dropdown', 'value'),
      dash.dependencies.Input('range-slider-callback', 'value')
     ]
@@ -73,37 +76,81 @@ def update_movie_count_plots(selected_genres, date):
     # Konvertiere die ausgewählten Daten in Datetime-Objekte
     start_date = pd.to_datetime(date[0], format='%Y')
     end_date = pd.to_datetime(date[1], format='%Y')
+    if selected_genres.count('All') > 0:
+        selected_genres = df['genres'].unique()
+    # Filtere das DataFrame nach dem aktuellen Genre und Datum
+    filtered_df = df[(df['genres'].isin(selected_genres)) & (df['year'] >= start_date) & (df['year'] <= end_date)]
     
-    plots = []  # Erstelle eine leere Liste für die Plots
+    # Gruppiere nach Jahr und zähle die Filme
+    movie_count_by_year = filtered_df.groupby(['genres', 'year'])['movieId'].count().reset_index()
+    movie_count_by_year['year'] = movie_count_by_year['year'].dt.year
+    # rename column movieId to count
+    movie_count_by_year = movie_count_by_year.rename(columns={'movieId': 'count'})
+
+    # Erstelle den Balkendiagramm-Plot
+    fig = px.bar(
+        movie_count_by_year,
+        x='year',
+        y='count',
+        color='genres',
+        hover_data = ['genres', 'count']
+    )
+        
+    # Aktualisiere das Layout des Plots
+    fig.update_layout(
+        title='Movie Count per Year',
+        xaxis_title='Year',
+        yaxis_title='Movie Count',
+        height=600,
+        hovermode='x unified'
+
+    )
+    fig.update_traces(hovertemplate="%{y}")
+        
+    return fig
+# Definiere die Callback-Funktion für die Plots
+@app.callback(
+    dash.dependencies.Output('bar-chart2', 'figure'),
+    [dash.dependencies.Input('genre-dropdown', 'value'),
+     dash.dependencies.Input('range-slider-callback', 'value')
+    ]
+)
+def update_movie_count_total(selected_genres, date):
+    print(date)
+    # Konvertiere die ausgewählten Daten in Datetime-Objekte
+    start_date = pd.to_datetime(date[0], format='%Y')
+    end_date = pd.to_datetime(date[1], format='%Y')
+    if selected_genres.count('All') > 0:
+        selected_genres = df['genres'].unique()
+    # Filtere das DataFrame nach dem aktuellen Genre und Datum
+    filtered_df = df[(df['genres'].isin(selected_genres)) & (df['year'] >= start_date) & (df['year'] <= end_date)]
     
-    # Iteriere über die ausgewählten Genres
-    for genre in selected_genres:
-        # Filtere das DataFrame nach dem aktuellen Genre und Datum
-        filtered_df = df[(df['genres'] == genre) & (df['year'].between(start_date, end_date))]
+    # Gruppiere nach Jahr und zähle die Filme
+    movie_count_by_year = filtered_df.groupby(['genres'])['movieId'].count().reset_index()
+    # rename column movieId to count
+    movie_count_by_year = movie_count_by_year.rename(columns={'movieId': 'count'})
+
+    # Erstelle den Balkendiagramm-Plot
+    fig = px.bar(
+        movie_count_by_year,
+        x='genres',
+        y='count',
+        color='genres',
+        hover_data = ['genres', 'count']
+    )
         
-        # Gruppiere nach Jahr und zähle die Filme
-        movie_count_by_year = filtered_df.groupby('year')['movieId'].count()
+    # Aktualisiere das Layout des Plots
+    fig.update_layout(
+        title='Movie Total Counts',
+        xaxis_title='Genre',
+        yaxis_title='Movie Count',
+        height=600,
+        hovermode='x unified'
+
+    )
+    fig.update_traces(hovertemplate="%{y}")
         
-        # Erstelle den Balkendiagramm-Plot
-        fig = go.Figure(go.Bar(
-            x=movie_count_by_year.index,
-            y=movie_count_by_year.values,
-            marker_color=genre_colors[genre]
-        ))
-        
-        # Aktualisiere das Layout des Plots
-        fig.update_layout(
-            title=f'Movie Count for Genre: {genre}',
-            xaxis_title='Year',
-            yaxis_title='Movie Count',
-            height=400,
-            hovermode='x unified'
-        )
-        
-        plots.append(html.Div(children=html.Div([
-            dcc.Graph(figure=fig)  # Füge den Plot zur Liste der Plots hinzu
-        ])))
-    return plots
+    return fig
 
 if __name__ == '__main__':
     app.run_server(debug=True)

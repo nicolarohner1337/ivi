@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'report.blg'
-[78] biber-darwin:340> INFO - === Sun May  7, 2023, 14:36:44
-[92] Biber.pm:418> INFO - Reading 'report.bcf'
-[186] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
-[199] Biber.pm:4383> INFO - Processing section 0
-[209] Biber.pm:4574> INFO - Looking for bibtex file 'IVI.bib' for section 0
-[210] bibtex.pm:1713> INFO - LaTeX decoding ...
-[237] bibtex.pm:1518> INFO - Found BibTeX data source 'IVI.bib'
-[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[347] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[347] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[347] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[362] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[368] bbl.pm:757> INFO - Output to report.bbl
+[93] biber-darwin:340> INFO - === Wed May 31, 2023, 10:14:01
+[109] Biber.pm:418> INFO - Reading 'report.bcf'
+[207] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
+[220] Biber.pm:4383> INFO - Processing section 0
+[231] Biber.pm:4574> INFO - Looking for bibtex file 'IVI.bib' for section 0
+[233] bibtex.pm:1713> INFO - LaTeX decoding ...
+[254] bibtex.pm:1518> INFO - Found BibTeX data source 'IVI.bib'
+[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[356] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[357] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[357] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[372] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[378] bbl.pm:757> INFO - Output to report.bbl

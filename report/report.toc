@@ -1,27 +1,34 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}LE1: Performance}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}WebGL}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tiling}{3}{subsection.1.2}%
-\contentsline {section}{\numberline {2}LE2: Grundsätze für die Gestaltung von Dashboards}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Schneiderman’s Mantra}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Verknüpfte Ansichten}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Brushing}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Filtering}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Implementation mit Dash}{5}{subsection.2.5}%
-\contentsline {section}{\numberline {3}LE3: HCI Grundlagen}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Fitts's Law}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Weber's Law}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}5 Dimensionen der Interaktionsgestaltung}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Implementation mit Dash}{7}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Anhang}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Figure 1}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Figure 2}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Figure 3}{11}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Figure 4}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Figure 5}{13}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Figure 6}{13}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Figure 7}{13}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Figure 8}{14}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Figure 9}{14}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Figure 10}{15}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Figure 11}{16}{subsection.4.11}%
+\contentsline {section}{\numberline {1}LE1: Performance}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}WebGL}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tiling}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}LE2: Grundsätze für die Gestaltung von Dashboards}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Schneiderman’s Mantra}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Verknüpfte Ansichten}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Brushing}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Filtering}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Implementation mit Dash}{6}{subsection.2.5}%
+\contentsline {section}{\numberline {3}LE3: HCI Grundlagen}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Fitts's Law}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Weber's Law}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}5 Dimensionen der Interaktionsgestaltung}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Implementation mit Dash}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}LE4: Evaluierung}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Usability Test}{9}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Ergebnisse}{9}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Dashboard Redesign}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Usability Test nach Redesign}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Ergebnisse nach Redesign}{10}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Anhang}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Figure 1}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Figure 2}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Figure 3}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Figure 4}{15}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Figure 5}{16}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Figure 6}{16}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Figure 7}{16}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Figure 8}{17}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Figure 9}{17}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Figure 10}{18}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Figure 11}{19}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Figure 12}{20}{subsection.5.12}%
